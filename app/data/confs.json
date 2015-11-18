@@ -1,18 +1,155 @@
 [
-    {
-        "age": 18, 
-        "id": "t-mobile-g2", 
-        "imageUrl": "img/phones/t-mobile-g2.0.jpg", 
-        "name": "T-Mobile G2", 
-        "snippet": "The T-Mobile G2 with Google is the first smartphone built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible.",
-        "diversity": 45
-    }, 
-    {
-        "age": 19, 
-        "id": "motorola-charm-with-motoblur", 
-        "imageUrl": "img/phones/motorola-charm-with-motoblur.0.jpg", 
-        "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122", 
-        "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service.",
-        "diversity": 24
-    }
+  {
+    "name":"Agile Australia ",
+    "Year":"2014",
+    "# Men":50,
+    "# Women":13,
+    "diversity":"21%",
+    "Source":"http://www.agileaustralia.com.au/speakers.php",
+    "Notes":""
+  },
+  {
+    "name":"JS Conf Melbourne",
+    "Year":"2014",
+    "# Men":8,
+    "# Women":2,
+    "diversity":"20%",
+    "Source":"http://au.jsconf.com/speakers",
+    "Notes":""
+  },
+  {
+    "name":"YOW ",
+    "Year":"2013",
+    "# Men":29,
+    "# Women":4,
+    "diversity":"12%",
+    "Source":"http://yow.eventer.com/yow-2013-1080",
+    "Notes":""
+  },
+  {
+    "name":"YOW Lambda Jam ",
+    "Year":"2013",
+    "# Men":20,
+    "# Women":0,
+    "diversity":"0%",
+    "Source":"http://www.yowconference.com.au/lambdajam/Speakers.html",
+    "Notes":""
+  },
+  {
+    "name":"YOW Lambda Jam ",
+    "Year":"2014",
+    "# Men":19,
+    "# Women":2,
+    "diversity":"10%",
+    "Source":"http://lambdajam.yowconference.com.au/speakers/",
+    "Notes":""
+  },
+  {
+    "name":"DevOps Downunder ",
+    "Year":"2013",
+    "# Men":7,
+    "# Women":0,
+    "diversity":"0%",
+    "Source":"http://www.devopsdays.org/events/2013-downunder/program/",
+    "Notes":"Partly unfonference - possible unscheduled talks by women"
+  },
+  {
+    "name":"RubyConf",
+    "Year":"2014",
+    "# Men":23,
+    "# Women":4,
+    "diversity":"15%",
+    "Source":"http://hub.rubyconf.org.au/speakers",
+    "Notes":"Not including lightning talks"
+  },
+  {
+    "name":"LAST",
+    "Year":"2013",
+    "# Men":49,
+    "# Women":12,
+    "diversity":"20%",
+    "Source":"http://lanyrd.com/2013/lastconf/speakers",
+    "Notes":""
+  },
+  {
+    "name":"Products are Hard",
+    "Year":"2013",
+    "# Men":8,
+    "# Women":4,
+    "diversity":"33%",
+    "Source":"http://productsarehard.com/PAHMEL13/speakers/",
+    "Notes":""
+  },
+  {
+    "name":"Webstock Wellington",
+    "Year":"2013",
+    "# Men":12,
+    "# Women":9,
+    "diversity":"43%",
+    "Source":"http://www.webstock.org.nz/speakers/",
+    "Notes":""
+  },
+  {
+    "name":"Con-nect",
+    "Year":"?",
+    "# Men":26,
+    "# Women":4,
+    "diversity":"13%",
+    "Source":"http://www.con-nect.com.au/past_speakers.html",
+    "Notes":""
+  },
+  {
+    "name":"YOW West",
+    "Year":"2014",
+    "# Men":23,
+    "# Women":3,
+    "diversity":"12%",
+    "Source":"http://west.yowconference.com.au/speakers/",
+    "Notes":""
+  },
+  {
+    "name":"Agile Australia",
+    "Year":"2015",
+    "# Men":null,
+    "# Women":null,
+    "diversity":"",
+    "Source":"",
+    "Notes":""
+  },
+  {
+    "name":"YOW",
+    "Year":"2014",
+    "# Men":null,
+    "# Women":null,
+    "diversity":"",
+    "Source":"",
+    "Notes":""
+  },
+  {
+    "name":"YOW Lambda Jam",
+    "Year":"2015",
+    "# Men":32,
+    "# Women":0,
+    "diversity":"0%",
+    "Source":"",
+    "Notes":"Not including lightning talks"
+  },
+  {
+    "name":"YOW West",
+    "Year":"2015",
+    "# Men":31,
+    "# Women":2,
+    "diversity":"6%",
+    "Source":"",
+    "Notes":""
+  },
+  {
+    "name":"DevOps Days",
+    "Year":"2015",
+    "# Men":8,
+    "# Women":0,
+    "diversity":"0%",
+    "Source":"",
+    "Notes":"Partly unfonference - possible unscheduled talks by women"
+  }
 ]
