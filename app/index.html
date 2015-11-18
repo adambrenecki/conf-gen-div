@@ -16,7 +16,7 @@
       <div class="col-md-10">
         <!--Body content-->
 
-        <table ng-controller="ConfListCtrl" st-table="displayedConferences" st-safe-src="loadedConferences" class="table table-striped">
+        <table ng-controller="ConfListCtrl" st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
           <thead>
           <tr>
             <th st-sort="year">Year</th>
@@ -28,7 +28,7 @@
           </thead>
           <tr ng-repeat="conf in displayedConferences">
             <td>{{conf.year}}</td>
-            <td>{{conf.name}}</td>
+            <td><a href="{{conf.source}}">{{conf.name}}</a></td>
             <td>{{conf.diversityPercentage}}</td>
             <td>{{conf.numberOfWomen}}</td>
             <td>{{conf.numberOfMen}}</td>
