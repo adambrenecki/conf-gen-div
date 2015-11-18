@@ -19,16 +19,16 @@
       <div class="col-md-10">
         <!--Body content-->
 
-        <table st-table="rowCollection" class="table table-striped">
-        <thead>
-        <tr>
-          <th st-sort="year">Year</th>
-          <th st-sort="name">Name</th>
-          <th st-sort="diversityPercentage">Diversity %</th>
-          <th st-sort="women">Women</th>
-          <th st-sort="men">Men</th>
-        </tr>
-        </thead>
+        <table st-table="conferences" class="table table-striped">
+          <thead>
+          <tr>
+            <th st-sort="year">Year</th>
+            <th st-sort="name">Name</th>
+            <th st-sort="diversityPercentage">Diversity %</th>
+            <th st-sort="women">Women</th>
+            <th st-sort="men">Men</th>
+          </tr>
+          </thead>
           <tr ng-repeat="conf in conferences">
             <td>{{conf.year}}</td>
             <td>{{conf.name}}</td>
