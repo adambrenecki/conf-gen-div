@@ -16,13 +16,15 @@
       <div class="col-md-10">
         <!--Body content-->
 
+        <h1>Gender Diversity in Tech Conferences</h1>
+
         <table st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
           <thead>
           <tr>
             <th st-sort="name">Name</th>
-            <th st-sort="diversityPercentage" st-sort-default="reverse">Diversity %</th>
-            <th st-sort="numberOfWomen">Women</th>
-            <th st-sort="numberOfMen">Men</th>
+            <th class="text-right" st-sort="numberOfWomen">Women</th>
+            <th class="text-right" st-sort="numberOfMen">Men</th>
+            <th class="text-right" st-sort="diversityPercentage" st-sort-default="reverse">W:M%</th>
           </tr>
           <tr>
             <th>
@@ -31,9 +33,9 @@
           </thead>
           <tr ng-repeat="conf in displayedConferences">
             <td><a href="{{conf.source}}">{{conf.name}} ({{conf.year}})</a></td>
-            <td>{{conf.diversityPercentage}}</td>
-            <td>{{conf.numberOfWomen}}</td>
-            <td>{{conf.numberOfMen}}</td>
+            <td class="text-right">{{conf.numberOfWomen}}</td>
+            <td class="text-right">{{conf.numberOfMen}}</td>
+            <td class="text-right">{{conf.diversityPercentage}}</td>
           </tr>
         </table>
 
