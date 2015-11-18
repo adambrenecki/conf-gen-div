@@ -9,5 +9,14 @@ angular.module('app', ['smart-table'])
 		    $scope.loadedConferences = data;
 		  });
 		  $scope.displayedConferences = [].concat($scope.loadedConferences);
+
+		  $scope.getters={
+        		// numberOfMen: function (conf) {
+          //   		return (conf.totalSpeakers - conf.numberOfWomen);
+          // 		}
+        		diversityPercentage: function (conf) {
+            		return (conf.numberOfWomen / conf.totalSpeakers * 100);
+          		}
+    	  	}
 		}]
 	);
