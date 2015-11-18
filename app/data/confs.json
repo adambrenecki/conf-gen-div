@@ -2,8 +2,8 @@
   {
     "name":"Agile Australia ",
     "year":"2014",
-    "# Men":50,
-    "# Women":13,
+    "numberOfMen":50,
+    "numberOfWomen":13,
     "diversityPercentage":21,
     "Source":"http://www.agileaustralia.com.au/speakers.php",
     "Notes":""
@@ -11,8 +11,8 @@
   {
     "name":"JS Conf Melbourne",
     "year":"2014",
-    "# Men":8,
-    "# Women":2,
+    "numberOfMen":8,
+    "numberOfWomen":2,
     "diversityPercentage":20,
     "Source":"http://au.jsconf.com/speakers",
     "Notes":""
@@ -20,8 +20,8 @@
   {
     "name":"YOW ",
     "year":"2013",
-    "# Men":29,
-    "# Women":4,
+    "numberOfMen":29,
+    "numberOfWomen":4,
     "diversityPercentage":12,
     "Source":"http://yow.eventer.com/yow-2013-1080",
     "Notes":""
@@ -29,8 +29,8 @@
   {
     "name":"YOW Lambda Jam ",
     "year":"2013",
-    "# Men":20,
-    "# Women":0,
+    "numberOfMen":20,
+    "numberOfWomen":0,
     "diversityPercentage":0,
     "Source":"http://www.yowconference.com.au/lambdajam/Speakers.html",
     "Notes":""
@@ -38,8 +38,8 @@
   {
     "name":"YOW Lambda Jam ",
     "year":"2014",
-    "# Men":19,
-    "# Women":2,
+    "numberOfMen":19,
+    "numberOfWomen":2,
     "diversityPercentage":10,
     "Source":"http://lambdajam.yowconference.com.au/speakers/",
     "Notes":""
@@ -47,8 +47,8 @@
   {
     "name":"DevOps Downunder ",
     "year":"2013",
-    "# Men":7,
-    "# Women":0,
+    "numberOfMen":7,
+    "numberOfWomen":0,
     "diversityPercentage":0,
     "Source":"http://www.devopsdays.org/events/2013-downunder/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
@@ -56,8 +56,8 @@
   {
     "name":"RubyConf",
     "year":"2014",
-    "# Men":23,
-    "# Women":4,
+    "numberOfMen":23,
+    "numberOfWomen":4,
     "diversityPercentage":15,
     "Source":"http://hub.rubyconf.org.au/speakers",
     "Notes":"Not including lightning talks"
@@ -65,8 +65,8 @@
   {
     "name":"LAST",
     "year":"2013",
-    "# Men":49,
-    "# Women":12,
+    "numberOfMen":49,
+    "numberOfWomen":12,
     "diversityPercentage":20,
     "Source":"http://lanyrd.com/2013/lastconf/speakers",
     "Notes":""
@@ -74,8 +74,8 @@
   {
     "name":"Products are Hard",
     "year":"2013",
-    "# Men":8,
-    "# Women":4,
+    "numberOfMen":8,
+    "numberOfWomen":4,
     "diversityPercentage":33,
     "Source":"http://productsarehard.com/PAHMEL13/speakers/",
     "Notes":""
@@ -83,8 +83,8 @@
   {
     "name":"Webstock Wellington",
     "year":"2013",
-    "# Men":12,
-    "# Women":9,
+    "numberOfMen":12,
+    "numberOfWomen":9,
     "diversityPercentage":43,
     "Source":"http://www.webstock.org.nz/speakers/",
     "Notes":""
@@ -92,8 +92,8 @@
   {
     "name":"Con-nect",
     "year":"?",
-    "# Men":26,
-    "# Women":4,
+    "numberOfMen":26,
+    "numberOfWomen":4,
     "diversityPercentage":13,
     "Source":"http://www.con-nect.com.au/past_speakers.html",
     "Notes":""
@@ -101,8 +101,8 @@
   {
     "name":"YOW West",
     "year":"2014",
-    "# Men":23,
-    "# Women":3,
+    "numberOfMen":23,
+    "numberOfWomen":3,
     "diversityPercentage":12,
     "Source":"http://west.yowconference.com.au/speakers/",
     "Notes":""
@@ -110,8 +110,8 @@
   {
     "name":"Agile Australia",
     "year":"2015",
-    "# Men":null,
-    "# Women":null,
+    "numberOfMen":null,
+    "numberOfWomen":null,
     "diversityPercentage":0,
     "Source":"",
     "Notes":""
@@ -119,8 +119,8 @@
   {
     "name":"YOW",
     "year":"2014",
-    "# Men":null,
-    "# Women":null,
+    "numberOfMen":null,
+    "numberOfWomen":null,
     "diversityPercentage":0,
     "Source":"",
     "Notes":""
@@ -128,8 +128,8 @@
   {
     "name":"YOW Lambda Jam",
     "year":"2015",
-    "# Men":32,
-    "# Women":0,
+    "numberOfMen":32,
+    "numberOfWomen":0,
     "diversityPercentage":0,
     "Source":"",
     "Notes":"Not including lightning talks"
@@ -137,8 +137,8 @@
   {
     "name":"YOW West",
     "year":"2015",
-    "# Men":31,
-    "# Women":2,
+    "numberOfMen":31,
+    "numberOfWomen":2,
     "diversityPercentage":6,
     "Source":"",
     "Notes":""
@@ -146,8 +146,8 @@
   {
     "name":"DevOps Days",
     "year":"2015",
-    "# Men":8,
-    "# Women":0,
+    "numberOfMen":8,
+    "numberOfWomen":0,
     "diversityPercentage":0,
     "Source":"",
     "Notes":"Partly unfonference - possible unscheduled talks by women"

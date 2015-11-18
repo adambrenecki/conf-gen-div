@@ -15,13 +15,6 @@
       <div class="col-md-2">
         <!--Sidebar content-->
 
-        Search: <input ng-model="query">
-        Sort by:
-        <select ng-model="orderProp">
-          <option value="-diversityPercentage">Diversity - Highest to Lowest</option>
-          <option value="diversityPercentage">Diversity - Lowest to Highest</option>
-        </select>
-
       </div>
       <div class="col-md-10">
         <!--Body content-->
@@ -32,12 +25,16 @@
           <th st-sort="year">Year</th>
           <th st-sort="name">Name</th>
           <th st-sort="diversityPercentage">Diversity %</th>
+          <th st-sort="women">Women</th>
+          <th st-sort="men">Men</th>
         </tr>
         </thead>
           <tr ng-repeat="conf in conferences">
             <td>{{conf.year}}</td>
             <td>{{conf.name}}</td>
             <td>{{conf.diversityPercentage}}</td>
+            <td>{{conf.numberOfWomen}}</td>
+            <td>{{conf.numberOfMen}}</td>
           </tr>
         </table>
 
