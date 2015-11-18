@@ -32,10 +32,10 @@
             </th> 
           </thead>
           <tr ng-repeat="conf in displayedConferences">
-            <td><a href="{{conf.source}}">{{conf.name}} ({{conf.year}})</a></td>
+            <td><a href="{{conf.source}}" target="_other">{{conf.name}} ({{conf.year}})</a></td>
             <td class="text-right">{{conf.numberOfWomen}}</td>
-            <td class="text-right">{{conf.numberOfMen}}</td>
-            <td class="text-right">{{conf.diversityPercentage}}</td>
+            <td class="text-right">{{conf.totalSpeakers - conf.numberOfWomen}}</td>
+            <td class="text-right">{{conf.numberOfWomen / conf.totalSpeakers * 100 | number : 0}}</td>
           </tr>
         </table>
 
