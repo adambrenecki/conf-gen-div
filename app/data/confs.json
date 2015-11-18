@@ -1,0 +1,18 @@
+[
+    {
+        "age": 18, 
+        "id": "t-mobile-g2", 
+        "imageUrl": "img/phones/t-mobile-g2.0.jpg", 
+        "name": "T-Mobile G2", 
+        "snippet": "The T-Mobile G2 with Google is the first smartphone built for 4G speeds on T-Mobile's new network. Get the information you need, faster than you ever thought possible.",
+        "diversity": 45
+    }, 
+    {
+        "age": 19, 
+        "id": "motorola-charm-with-motoblur", 
+        "imageUrl": "img/phones/motorola-charm-with-motoblur.0.jpg", 
+        "name": "Motorola CHARM\u2122 with MOTOBLUR\u2122", 
+        "snippet": "Motorola CHARM fits easily in your pocket or palm.  Includes MOTOBLUR service.",
+        "diversity": 24
+    }
+]
