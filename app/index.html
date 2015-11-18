@@ -9,26 +9,28 @@
   <script src="js/controllers.js"></script>
   <script src="http://lorenzofox3.github.io/smart-table-website/bower_components/angular-smart-table/dist/smart-table.js"></script>
 </head>
-<body>
+<body ng-controller="ConfListCtrl">
 
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-10">
         <!--Body content-->
 
-        <table ng-controller="ConfListCtrl" st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
+        <table st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
           <thead>
           <tr>
-            <th st-sort="year">Year</th>
             <th st-sort="name">Name</th>
             <th st-sort="diversityPercentage" st-sort-default="reverse">Diversity %</th>
             <th st-sort="numberOfWomen">Women</th>
             <th st-sort="numberOfMen">Men</th>
           </tr>
+          <tr>
+            <th>
+              <input st-search placeholder="Search" class="input-sm form-control" type="search"/>
+            </th> 
           </thead>
           <tr ng-repeat="conf in displayedConferences">
-            <td>{{conf.year}}</td>
-            <td><a href="{{conf.source}}">{{conf.name}}</a></td>
+            <td><a href="{{conf.source}}">{{conf.name}} ({{conf.year}})</a></td>
             <td>{{conf.diversityPercentage}}</td>
             <td>{{conf.numberOfWomen}}</td>
             <td>{{conf.numberOfMen}}</td>
