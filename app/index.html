@@ -13,10 +13,6 @@
 
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-2">
-        <!--Sidebar content-->
-
-      </div>
       <div class="col-md-10">
         <!--Body content-->
 
@@ -25,9 +21,9 @@
           <tr>
             <th st-sort="year">Year</th>
             <th st-sort="name">Name</th>
-            <th st-sort="diversityPercentage" st-sort-default="true">Diversity %</th>
-            <th st-sort="women">Women</th>
-            <th st-sort="men">Men</th>
+            <th st-sort="diversityPercentage" st-sort-default="reverse">Diversity %</th>
+            <th st-sort="numberOfWomen">Women</th>
+            <th st-sort="numberOfMen">Men</th>
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
