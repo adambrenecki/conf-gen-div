@@ -9,7 +9,7 @@
   <script src="js/controllers.js"></script>
   <script src="http://lorenzofox3.github.io/smart-table-website/bower_components/angular-smart-table/dist/smart-table.js"></script>
 </head>
-<body ng-controller="ConfListCtrl">
+<body>
 
   <div class="container-fluid">
     <div class="row">
@@ -20,22 +20,17 @@
       <div class="col-md-10">
         <!--Body content-->
 
-        <table st-table="conferences" class="table table-striped">
+        <table ng-controller="ConfListCtrl" st-table="displayedConferences" st-safe-src="loadedConferences" class="table table-striped">
           <thead>
           <tr>
-            <th>Year</th>
-            <th>Name</th>
-            <th>Diversity %</th>
-            <th>Women</th>
-            <th>Men</th>
-<!--             <th st-sort="year">Year</th>
+            <th st-sort="year">Year</th>
             <th st-sort="name">Name</th>
-            <th st-sort="diversityPercentage">Diversity %</th>
+            <th st-sort="diversityPercentage" st-sort-default="true">Diversity %</th>
             <th st-sort="women">Women</th>
             <th st-sort="men">Men</th>
- -->          </tr>
+          </tr>
           </thead>
-          <tr ng-repeat="conf in conferences">
+          <tr ng-repeat="conf in displayedConferences">
             <td>{{conf.year}}</td>
             <td>{{conf.name}}</td>
             <td>{{conf.diversityPercentage}}</td>
