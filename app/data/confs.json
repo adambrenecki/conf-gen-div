@@ -1,7 +1,7 @@
 [
   {
     "name":"Agile Australia ",
-    "Year":"2014",
+    "year":"2014",
     "# Men":50,
     "# Women":13,
     "diversityPercentage":21,
@@ -10,7 +10,7 @@
   },
   {
     "name":"JS Conf Melbourne",
-    "Year":"2014",
+    "year":"2014",
     "# Men":8,
     "# Women":2,
     "diversityPercentage":20,
@@ -19,7 +19,7 @@
   },
   {
     "name":"YOW ",
-    "Year":"2013",
+    "year":"2013",
     "# Men":29,
     "# Women":4,
     "diversityPercentage":12,
@@ -28,7 +28,7 @@
   },
   {
     "name":"YOW Lambda Jam ",
-    "Year":"2013",
+    "year":"2013",
     "# Men":20,
     "# Women":0,
     "diversityPercentage":0,
@@ -37,7 +37,7 @@
   },
   {
     "name":"YOW Lambda Jam ",
-    "Year":"2014",
+    "year":"2014",
     "# Men":19,
     "# Women":2,
     "diversityPercentage":10,
@@ -46,7 +46,7 @@
   },
   {
     "name":"DevOps Downunder ",
-    "Year":"2013",
+    "year":"2013",
     "# Men":7,
     "# Women":0,
     "diversityPercentage":0,
@@ -55,7 +55,7 @@
   },
   {
     "name":"RubyConf",
-    "Year":"2014",
+    "year":"2014",
     "# Men":23,
     "# Women":4,
     "diversityPercentage":15,
@@ -64,7 +64,7 @@
   },
   {
     "name":"LAST",
-    "Year":"2013",
+    "year":"2013",
     "# Men":49,
     "# Women":12,
     "diversityPercentage":20,
@@ -73,7 +73,7 @@
   },
   {
     "name":"Products are Hard",
-    "Year":"2013",
+    "year":"2013",
     "# Men":8,
     "# Women":4,
     "diversityPercentage":33,
@@ -82,7 +82,7 @@
   },
   {
     "name":"Webstock Wellington",
-    "Year":"2013",
+    "year":"2013",
     "# Men":12,
     "# Women":9,
     "diversityPercentage":43,
@@ -91,7 +91,7 @@
   },
   {
     "name":"Con-nect",
-    "Year":"?",
+    "year":"?",
     "# Men":26,
     "# Women":4,
     "diversityPercentage":13,
@@ -100,7 +100,7 @@
   },
   {
     "name":"YOW West",
-    "Year":"2014",
+    "year":"2014",
     "# Men":23,
     "# Women":3,
     "diversityPercentage":12,
@@ -109,7 +109,7 @@
   },
   {
     "name":"Agile Australia",
-    "Year":"2015",
+    "year":"2015",
     "# Men":null,
     "# Women":null,
     "diversityPercentage":0,
@@ -118,7 +118,7 @@
   },
   {
     "name":"YOW",
-    "Year":"2014",
+    "year":"2014",
     "# Men":null,
     "# Women":null,
     "diversityPercentage":0,
@@ -127,7 +127,7 @@
   },
   {
     "name":"YOW Lambda Jam",
-    "Year":"2015",
+    "year":"2015",
     "# Men":32,
     "# Women":0,
     "diversityPercentage":0,
@@ -136,7 +136,7 @@
   },
   {
     "name":"YOW West",
-    "Year":"2015",
+    "year":"2015",
     "# Men":31,
     "# Women":2,
     "diversityPercentage":6,
@@ -145,7 +145,7 @@
   },
   {
     "name":"DevOps Days",
-    "Year":"2015",
+    "year":"2015",
     "# Men":8,
     "# Women":0,
     "diversityPercentage":0,
