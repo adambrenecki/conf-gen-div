@@ -10,5 +10,20 @@
     "angular-smart-table": "~2.1.5",
     "jquery": "~2.1.1",
     "bootstrap": "~3.1.1"
-  }
+  },
+  "homepage": "https://github.com/andeemarks/conf-gen-div",
+  "authors": [
+    "Andy Marks <amarks@thoughtworks.com>"
+  ],
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

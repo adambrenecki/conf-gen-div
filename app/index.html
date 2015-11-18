@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/app.css">
   <script src="bower_components/angular/angular.js"></script>
   <script src="js/controllers.js"></script>
+  <script src="http://lorenzofox3.github.io/smart-table-website/bower_components/angular-smart-table/dist/smart-table.js"></script>
 </head>
 <body ng-controller="ConfListCtrl">
 
@@ -22,12 +23,17 @@
         <table st-table="conferences" class="table table-striped">
           <thead>
           <tr>
-            <th st-sort="year">Year</th>
+            <th>Year</th>
+            <th>Name</th>
+            <th>Diversity %</th>
+            <th>Women</th>
+            <th>Men</th>
+<!--             <th st-sort="year">Year</th>
             <th st-sort="name">Name</th>
             <th st-sort="diversityPercentage">Diversity %</th>
             <th st-sort="women">Women</th>
             <th st-sort="men">Men</th>
-          </tr>
+ -->          </tr>
           </thead>
           <tr ng-repeat="conf in conferences">
             <td>{{conf.year}}</td>
