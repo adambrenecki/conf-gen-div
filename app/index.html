@@ -18,8 +18,8 @@
         Search: <input ng-model="query">
         Sort by:
         <select ng-model="orderProp">
-          <option value="-diversity">Diversity - Highest to Lowest</option>
-          <option value="diversity">Diversity - Lowest to Highest</option>
+          <option value="-diversityPercentage">Diversity - Highest to Lowest</option>
+          <option value="diversityPercentage">Diversity - Lowest to Highest</option>
         </select>
 
       </div>
@@ -29,7 +29,7 @@
         <ul class="conferences">
           <li ng-repeat="conf in conferences | filter:query | orderBy:orderProp">
             <span>{{conf.name}}</span>
-            <p>{{conf.diversity}}</p>
+            <p>{{conf.diversityPercentage}}</p>
           </li>
         </ul>
 

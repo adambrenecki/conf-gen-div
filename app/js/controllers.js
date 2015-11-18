@@ -9,5 +9,5 @@ app.controller('ConfListCtrl', ['$scope', '$http', function($scope, $http) {
     $scope.conferences = data;
   });
 
-  $scope.orderProp = '-diversity';
+  $scope.orderProp = '-diversityPercentage';
 }]);

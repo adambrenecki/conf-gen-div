@@ -4,7 +4,7 @@
     "Year":"2014",
     "# Men":50,
     "# Women":13,
-    "diversity":"21%",
+    "diversityPercentage":21,
     "Source":"http://www.agileaustralia.com.au/speakers.php",
     "Notes":""
   },
@@ -13,7 +13,7 @@
     "Year":"2014",
     "# Men":8,
     "# Women":2,
-    "diversity":"20%",
+    "diversityPercentage":20,
     "Source":"http://au.jsconf.com/speakers",
     "Notes":""
   },
@@ -22,7 +22,7 @@
     "Year":"2013",
     "# Men":29,
     "# Women":4,
-    "diversity":"12%",
+    "diversityPercentage":12,
     "Source":"http://yow.eventer.com/yow-2013-1080",
     "Notes":""
   },
@@ -31,7 +31,7 @@
     "Year":"2013",
     "# Men":20,
     "# Women":0,
-    "diversity":"0%",
+    "diversityPercentage":0,
     "Source":"http://www.yowconference.com.au/lambdajam/Speakers.html",
     "Notes":""
   },
@@ -40,7 +40,7 @@
     "Year":"2014",
     "# Men":19,
     "# Women":2,
-    "diversity":"10%",
+    "diversityPercentage":10,
     "Source":"http://lambdajam.yowconference.com.au/speakers/",
     "Notes":""
   },
@@ -49,7 +49,7 @@
     "Year":"2013",
     "# Men":7,
     "# Women":0,
-    "diversity":"0%",
+    "diversityPercentage":0,
     "Source":"http://www.devopsdays.org/events/2013-downunder/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
   },
@@ -58,7 +58,7 @@
     "Year":"2014",
     "# Men":23,
     "# Women":4,
-    "diversity":"15%",
+    "diversityPercentage":15,
     "Source":"http://hub.rubyconf.org.au/speakers",
     "Notes":"Not including lightning talks"
   },
@@ -67,7 +67,7 @@
     "Year":"2013",
     "# Men":49,
     "# Women":12,
-    "diversity":"20%",
+    "diversityPercentage":20,
     "Source":"http://lanyrd.com/2013/lastconf/speakers",
     "Notes":""
   },
@@ -76,7 +76,7 @@
     "Year":"2013",
     "# Men":8,
     "# Women":4,
-    "diversity":"33%",
+    "diversityPercentage":33,
     "Source":"http://productsarehard.com/PAHMEL13/speakers/",
     "Notes":""
   },
@@ -85,7 +85,7 @@
     "Year":"2013",
     "# Men":12,
     "# Women":9,
-    "diversity":"43%",
+    "diversityPercentage":43,
     "Source":"http://www.webstock.org.nz/speakers/",
     "Notes":""
   },
@@ -94,7 +94,7 @@
     "Year":"?",
     "# Men":26,
     "# Women":4,
-    "diversity":"13%",
+    "diversityPercentage":13,
     "Source":"http://www.con-nect.com.au/past_speakers.html",
     "Notes":""
   },
@@ -103,7 +103,7 @@
     "Year":"2014",
     "# Men":23,
     "# Women":3,
-    "diversity":"12%",
+    "diversityPercentage":12,
     "Source":"http://west.yowconference.com.au/speakers/",
     "Notes":""
   },
@@ -112,7 +112,7 @@
     "Year":"2015",
     "# Men":null,
     "# Women":null,
-    "diversity":"",
+    "diversityPercentage":0,
     "Source":"",
     "Notes":""
   },
@@ -121,7 +121,7 @@
     "Year":"2014",
     "# Men":null,
     "# Women":null,
-    "diversity":"",
+    "diversityPercentage":0,
     "Source":"",
     "Notes":""
   },
@@ -130,7 +130,7 @@
     "Year":"2015",
     "# Men":32,
     "# Women":0,
-    "diversity":"0%",
+    "diversityPercentage":0,
     "Source":"",
     "Notes":"Not including lightning talks"
   },
@@ -139,7 +139,7 @@
     "Year":"2015",
     "# Men":31,
     "# Women":2,
-    "diversity":"6%",
+    "diversityPercentage":6,
     "Source":"",
     "Notes":""
   },
@@ -148,7 +148,7 @@
     "Year":"2015",
     "# Men":8,
     "# Women":0,
-    "diversity":"0%",
+    "diversityPercentage":0,
     "Source":"",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
   }
