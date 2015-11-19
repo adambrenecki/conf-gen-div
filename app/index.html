@@ -16,7 +16,7 @@
       <div class="col-md-10">
         <!--Body content-->
 
-        <h1>Female Speakers at Tech Conferences</h1>
+        <h1>Female Speakers @ Tech Conferences</h1>
 
         <table st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
           <thead>
@@ -26,11 +26,11 @@
             </th> 
           </tr>
           <tr>
-            <th st-sort="name">Name</th>
-            <th st-sort="location">Location</th>
-            <th class="text-right" st-sort="numberOfWomen">Women</th>
-            <th class="text-right" st-sort="getters.numberOfMen">Men</th>
-            <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">W:M%</th>
+            <th st-sort="name">name</th>
+            <th st-sort="location">location</th>
+            <th class="text-right" st-sort="numberOfWomen">&#9792;</th>
+            <th class="text-right" st-sort="getters.numberOfMen">&#9794;</th>
+            <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">&#9792;:&#9794;%</th>
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
