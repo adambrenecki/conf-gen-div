@@ -36,7 +36,7 @@
     "Notes":""
   },
   {
-    "name":"YOW ",
+    "name":"YOW",
     "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":33,
@@ -45,25 +45,25 @@
     "Notes":""
   },
   {
-    "name":"YOW Lambda Jam ",
+    "name":"YOW Lambda Jam",
     "location":"Brisbane, Australia",
     "year":"2013",
-    "totalSpeakers":20,
+    "totalSpeakers":13,
     "numberOfWomen":0,
-    "source":"http://www.yowconference.com.au/lambdajam/Speakers.html",
+    "source":"https://www.conferize.com/conferences/yow-lambda-jam-2013/speakers",
     "Notes":""
   },
   {
-    "name":"YOW Lambda Jam ",
+    "name":"YOW Lambda Jam",
     "location":"Brisbane, Australia",
     "year":"2014",
-    "totalSpeakers":21,
+    "totalSpeakers":12,
     "numberOfWomen":2,
-    "source":"http://lambdajam.yowconference.com.au/speakers/",
+    "source":"http://lanyrd.com/2014/yow-oz/speakers/",
     "Notes":""
   },
   {
-    "name":"DevOps Downunder ",
+    "name":"DevOps Downunder",
     "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":7,
@@ -73,20 +73,38 @@
   },
   {
     "name":"RubyConf",
-    "location":"Melbourne, Australia",
+    "location":"Sydney, Australia",
     "year":"2014",
-    "totalSpeakers":27,
-    "numberOfWomen":4,
-    "source":"http://hub.rubyconf.org.au/speakers",
+    "totalSpeakers":28,
+    "numberOfWomen":3,
+    "source":"http://www.rubyconf.org.au/2014#speakers",
+    "Notes":"Not including lightning talks"
+  },
+  {
+    "name":"RubyConf",
+    "location":"Melbourne, Australia",
+    "year":"2015",
+    "totalSpeakers":24,
+    "numberOfWomen":8,
+    "source":"http://www.rubyconf.org.au/2014#speakers",
     "Notes":"Not including lightning talks"
   },
   {
     "name":"LAST",
     "location":"Melbourne, Australia",
     "year":"2013",
-    "totalSpeakers":61,
+    "totalSpeakers":66,
     "numberOfWomen":12,
     "source":"http://lanyrd.com/2013/lastconf/speakers",
+    "Notes":""
+  },
+  {
+    "name":"LAST",
+    "location":"Melbourne, Australia",
+    "year":"2014",
+    "totalSpeakers":66,
+    "numberOfWomen":11,
+    "source":"http://lanyrd.com/2014/lastconf/speakers",
     "Notes":""
   },
   {
@@ -132,15 +150,6 @@
     "totalSpeakers":21,
     "numberOfWomen":3,
     "source":"http://www.webstock.org.nz/talks/#Webstock10",
-    "Notes":""
-  },
-  {
-    "name":"Con-nect",
-    "location":"Melbourne, Australia",
-    "year":"?",
-    "totalSpeakers":30,
-    "numberOfWomen":4,
-    "source":"http://www.con-nect.com.au/past_speakers.html",
     "Notes":""
   },
   {
@@ -201,18 +210,18 @@
     "name":"YOW West",
     "location":"Perth, Australia",
     "year":"2015",
-    "totalSpeakers":33,
+    "totalSpeakers":34,
     "numberOfWomen":2,
-    "source":"",
+    "source":"https://a.confui.com/public/conferences/54fae12ed02ecad6f60000a8/locations/54fae12ed02ecad6f60000a9/schedule",
     "Notes":""
   },
   {
     "name":"DevOps Days",
     "location":"Melbourne, Australia",
     "year":"2015",
-    "totalSpeakers":8,
+    "totalSpeakers":9,
     "numberOfWomen":0,
-    "source":"",
+    "source":"http://www.devopsdays.org/events/2015-melbourne/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
   }
 ]
