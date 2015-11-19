@@ -12,9 +12,18 @@
     "name":"Webstock",
     "location":"Wellington, New Zealand",
     "year":"2014",
-    "totalSpeakers":119,
-    "numberOfWomen":36,
-    "source":"http://www.webstock.org.nz/speakers/",
+    "totalSpeakers":19,
+    "numberOfWomen":7,
+    "source":"http://www.webstock.org.nz/talks/#Webstock14",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2015",
+    "totalSpeakers":22,
+    "numberOfWomen":8,
+    "source":"http://www.webstock.org.nz/talks/#Webstock15",
     "Notes":""
   },
   {
@@ -99,6 +108,33 @@
     "Notes":""
   },
   {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2012",
+    "totalSpeakers":20,
+    "numberOfWomen":9,
+    "source":"http://www.webstock.org.nz/talks/#Webstock12",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2011",
+    "totalSpeakers":21,
+    "numberOfWomen":4,
+    "source":"http://www.webstock.org.nz/talks/#Webstock11",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2010",
+    "totalSpeakers":21,
+    "numberOfWomen":3,
+    "source":"http://www.webstock.org.nz/talks/#Webstock10",
+    "Notes":""
+  },
+  {
     "name":"Con-nect",
     "location":"Melbourne, Australia",
     "year":"?",
@@ -120,19 +156,37 @@
     "name":"Agile Australia",
     "location":"Melbourne, Australia",
     "year":"2015",
-    "totalSpeakers":null,
-    "numberOfWomen":null,
-    "source":"",
+    "totalSpeakers":70,
+    "numberOfWomen":15,
+    "source":"http://www.agileaustralia.com.au/2015/keynote-speakers/speakers",
     "Notes":""
   },
   {
     "name":"YOW",
     "location":"Melbourne, Australia",
     "year":"2014",
-    "totalSpeakers":null,
-    "numberOfWomen":null,
-    "source":"",
-    "Notes":""
+    "totalSpeakers":44,
+    "numberOfWomen":8,
+    "source":"https://yow.eventer.com/yow-2013-1080",
+    "Notes":"Speakers covers both workshops and sessions"
+  },
+  {
+    "name":"YOW",
+    "location":"Melbourne, Australia",
+    "year":"2013",
+    "totalSpeakers":37,
+    "numberOfWomen":3,
+    "source":"http://yowconference.com.au/artefacts/YOW2014SpeakerSummary.pdf",
+    "Notes":"Speakers covers both workshops and sessions"
+  },
+  {
+    "name":"YOW",
+    "location":"Melbourne, Australia",
+    "year":"2015",
+    "totalSpeakers":38,
+    "numberOfWomen":7,
+    "source":"http://melbourne.yowconference.com.au/speakers/",
+    "Notes":"Speakers covers both workshops and sessions"
   },
   {
     "name":"YOW Lambda Jam",
