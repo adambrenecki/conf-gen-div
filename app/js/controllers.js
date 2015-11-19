@@ -17,6 +17,6 @@ angular.module('app', ['smart-table'])
         		diversityPercentage: function (conf) {
             		return (conf.numberOfWomen / conf.totalSpeakers * 100);
           		}
-    	  	}
+    	  	};
 		}]
 	);

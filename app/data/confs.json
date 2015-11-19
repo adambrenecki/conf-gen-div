@@ -1,6 +1,7 @@
 [
   {
     "name":"Agile Australia ",
+    "location":"Melbourne, Australia",
     "year":"2014",
     "totalSpeakers":63,
     "numberOfWomen":13,
@@ -8,7 +9,8 @@
     "Notes":""
   },
   {
-    "name":"Webstock Wellington",
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
     "year":"2014",
     "totalSpeakers":119,
     "numberOfWomen":36,
@@ -17,6 +19,7 @@
   },
   {
     "name":"JS Conf Melbourne",
+    "location":"Melbourne, Australia",
     "year":"2014",
     "totalSpeakers":10,
     "numberOfWomen":2,
@@ -25,6 +28,7 @@
   },
   {
     "name":"YOW ",
+    "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":33,
     "numberOfWomen":4,
@@ -33,6 +37,7 @@
   },
   {
     "name":"YOW Lambda Jam ",
+    "location":"Brisbane, Australia",
     "year":"2013",
     "totalSpeakers":20,
     "numberOfWomen":0,
@@ -41,6 +46,7 @@
   },
   {
     "name":"YOW Lambda Jam ",
+    "location":"Brisbane, Australia",
     "year":"2014",
     "totalSpeakers":21,
     "numberOfWomen":2,
@@ -49,6 +55,7 @@
   },
   {
     "name":"DevOps Downunder ",
+    "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":7,
     "numberOfWomen":0,
@@ -57,6 +64,7 @@
   },
   {
     "name":"RubyConf",
+    "location":"Melbourne, Australia",
     "year":"2014",
     "totalSpeakers":27,
     "numberOfWomen":4,
@@ -65,6 +73,7 @@
   },
   {
     "name":"LAST",
+    "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":61,
     "numberOfWomen":12,
@@ -73,6 +82,7 @@
   },
   {
     "name":"Products are Hard",
+    "location":"Melbourne, Australia",
     "year":"2013",
     "totalSpeakers":12,
     "numberOfWomen":4,
@@ -80,7 +90,8 @@
     "Notes":""
   },
   {
-    "name":"Webstock Wellington",
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
     "year":"2013",
     "totalSpeakers":22,
     "numberOfWomen":5,
@@ -89,6 +100,7 @@
   },
   {
     "name":"Con-nect",
+    "location":"Melbourne, Australia",
     "year":"?",
     "totalSpeakers":30,
     "numberOfWomen":4,
@@ -97,6 +109,7 @@
   },
   {
     "name":"YOW West",
+    "location":"Perth, Australia",
     "year":"2014",
     "totalSpeakers":26,
     "numberOfWomen":3,
@@ -105,6 +118,7 @@
   },
   {
     "name":"Agile Australia",
+    "location":"Melbourne, Australia",
     "year":"2015",
     "totalSpeakers":null,
     "numberOfWomen":null,
@@ -113,6 +127,7 @@
   },
   {
     "name":"YOW",
+    "location":"Melbourne, Australia",
     "year":"2014",
     "totalSpeakers":null,
     "numberOfWomen":null,
@@ -121,6 +136,7 @@
   },
   {
     "name":"YOW Lambda Jam",
+    "location":"Brisbane, Australia",
     "year":"2015",
     "totalSpeakers":32,
     "numberOfWomen":0,
@@ -129,6 +145,7 @@
   },
   {
     "name":"YOW West",
+    "location":"Perth, Australia",
     "year":"2015",
     "totalSpeakers":33,
     "numberOfWomen":2,
@@ -137,6 +154,7 @@
   },
   {
     "name":"DevOps Days",
+    "location":"Melbourne, Australia",
     "year":"2015",
     "totalSpeakers":8,
     "numberOfWomen":0,
