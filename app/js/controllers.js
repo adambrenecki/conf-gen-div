@@ -13,10 +13,10 @@ angular.module('app', ['smart-table'])
 		  $scope.getters={
         		numberOfMen: function (conf) {
             		return (conf.totalSpeakers - conf.numberOfWomen);
+          		},
+        		diversityPercentage: function (conf) {
+            		return (conf.numberOfWomen / conf.totalSpeakers * 100);
           		}
-        		// diversityPercentage: function (conf) {
-          //   		return (conf.numberOfWomen / conf.totalSpeakers * 100);
-          // 		}
     	  	};
 		}]
 	);
