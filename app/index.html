@@ -21,16 +21,17 @@
         <table st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
           <thead>
           <tr>
+            <th>
+              <input st-search placeholder="Search" class="input-sm form-control" type="search"/>
+            </th> 
+          </tr>
+          <tr>
             <th st-sort="name">Name</th>
             <th st-sort="location">Location</th>
             <th class="text-right" st-sort="numberOfWomen">Women</th>
             <th class="text-right" st-sort="getters.numberOfMen">Men</th>
             <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">W:M%</th>
           </tr>
-          <tr>
-            <th>
-              <input st-search placeholder="Search" class="input-sm form-control" type="search"/>
-            </th> 
           </thead>
           <tr ng-repeat="conf in displayedConferences">
             <td><a href="{{conf.source}}" target="_other">{{conf.name}} ({{conf.year}})</a></td>
