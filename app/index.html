@@ -28,9 +28,9 @@
           <tr>
             <th st-sort="name">name</th>
             <th st-sort="location">location</th>
-            <th class="text-right" st-sort="numberOfWomen">&#9792;</th>
-            <th class="text-right" st-sort="getters.numberOfMen">&#9794;</th>
-            <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">&#9792;:&#9794;%</th>
+            <th class="text-right" st-sort="numberOfWomen">#f</th>
+            <th class="text-right" st-sort="getters.numberOfMen">#m</th>
+            <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">f:m</th>
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
@@ -38,7 +38,7 @@
             <td>{{conf.location}}</td>            
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{conf.totalSpeakers - conf.numberOfWomen}}</td>
-            <td class="text-right">{{conf.numberOfWomen / conf.totalSpeakers * 100 | number : 0}}</td>
+            <td class="text-right">{{conf.numberOfWomen / conf.totalSpeakers * 100 | number : 0}}%</td>
           </tr>
         </table>
 
