@@ -38,8 +38,8 @@
             <th st-sort="location">location</th>
             <th st-sort="year">year</th>
             <th class="text-right" st-sort="numberOfWomen">#f</th>
-            <th class="text-right" st-sort="getters.numberOfMen">#m</th>
-            <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">f:m</th>
+            <th class="text-right" st-sort="numberOfMen">#m</th>
+            <th class="text-right" st-sort="diversityPercentage" st-sort-default="reverse">f:m</th>
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
@@ -47,8 +47,8 @@
             <td>{{conf.location}}</td>            
             <td>{{conf.year}}</td>            
             <td class="text-right">{{conf.numberOfWomen}}</td>
-            <td class="text-right">{{getters.numberOfMen(conf)}}</td>
-            <td class="text-right">{{getters.diversityPercentage(conf) | number : 0}}%</td>
+            <td class="text-right">{{numberOfMen(conf)}}</td>
+            <td class="text-right">{{diversityPercentage(conf) | number : 0}}%</td>
           </tr>
         </table>
 
