@@ -25,5 +25,22 @@ describe('Controllers', function() {
 
       expect(scope.loadedConferences).toEqual([{name: 'Agile Australia'}, {year: '2014'}]);
     });
+
+    describe('getters', function() {
+      var stubConf, getters;
+      beforeEach(function() {
+        stubConf = {totalSpeakers: 20, numberOfWomen: 3};
+        getters = scope.getters;
+      });
+
+      it('should derive number of men from other fields', function() {
+        expect(getters.numberOfMen(stubConf)).toEqual(17)
+      });
+
+      it('should derive diversity percentage from other fields', function() {
+        expect(getters.diversityPercentage(stubConf)).toEqual(15)
+      });
+
+    })
   });
 });
