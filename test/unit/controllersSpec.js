@@ -1,33 +1,29 @@
 'use strict';
 
 /* jasmine specs for controllers go here */
-describe('PhoneCat controllers', function() {
+describe('Controllers', function() {
 
-  describe('PhoneListCtrl', function(){
+  describe('ConfListCtrl', function(){
     var scope, ctrl, $httpBackend;
 
-    beforeEach(module('phonecatApp'));
-    beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
-      $httpBackend = _$httpBackend_;
-      $httpBackend.expectGET('phones/phones.json').
-          respond([{name: 'Nexus S'}, {name: 'Motorola DROID'}]);
-
-      scope = $rootScope.$new();
-      ctrl = $controller('PhoneListCtrl', {$scope: scope});
-    }));
-
-
-    it('should create "phones" model with 2 phones fetched from xhr', function() {
-      expect(scope.phones).toBeUndefined();
-      $httpBackend.flush();
-
-      expect(scope.phones).toEqual([{name: 'Nexus S'},
-                                   {name: 'Motorola DROID'}]);
+    beforeEach(function() {
+      module('smart-table');
+      module('app');
     });
 
+    beforeEach(inject(function(_$httpBackend_, $rootScope, $controller) {
+      $httpBackend = _$httpBackend_;
+      $httpBackend.expectGET('data/confs.json').respond([{name: 'Agile Australia'}, {year: '2014'}]);
 
-    it('should set the default value of orderProp model', function() {
-      expect(scope.orderProp).toBe('age');
+      scope = $rootScope.$new();
+      ctrl = $controller('ConfListCtrl', {$scope: scope});
+    }));
+
+    it('should create confs data model with data fetched from xhr', function() {
+      expect(scope.loadedConferences).toBeUndefined();
+      $httpBackend.flush();
+
+      expect(scope.loadedConferences).toEqual([{name: 'Agile Australia'}, {year: '2014'}]);
     });
   });
 });

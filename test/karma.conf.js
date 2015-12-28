@@ -7,6 +7,7 @@ module.exports = function(config){
       'app/bower_components/angular/angular.js',
       'app/bower_components/angular-route/angular-route.js',
       'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/angular-smart-table/dist/smart-table.min.js',
       'app/js/**/*.js',
       'test/unit/**/*.js'
     ],
@@ -15,11 +16,10 @@ module.exports = function(config){
 
     frameworks: ['jasmine'],
 
-    browsers : ['Chrome', 'Firefox'],
+    browsers : ['Chrome'],
 
     plugins : [
             'karma-chrome-launcher',
-            'karma-firefox-launcher',
             'karma-jasmine'
             ],
 
