@@ -47,8 +47,8 @@
             <td>{{conf.location}}</td>            
             <td>{{conf.year}}</td>            
             <td class="text-right">{{conf.numberOfWomen}}</td>
-            <td class="text-right">{{conf.totalSpeakers - conf.numberOfWomen}}</td>
-            <td class="text-right">{{conf.numberOfWomen / conf.totalSpeakers * 100 | number : 0}}%</td>
+            <td class="text-right">{{getters.numberOfMen(conf)}}</td>
+            <td class="text-right">{{getters.diversityPercentage(conf) | number : 0}}%</td>
           </tr>
         </table>
 
