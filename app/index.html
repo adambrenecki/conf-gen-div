@@ -17,7 +17,9 @@
       <div class="col-md-10">
         <!--Body content-->
 
-        <h1>Female Speakers @ Tech Conferences</h1>
+        <div class="page-header">
+          <h1>Female Speakers @ Tech Conferences</h1>
+        </div>
 
         <div class="alert alert-warning" role="alert">
             <strong>Disclaimer</strong>
@@ -34,6 +36,7 @@
           <tr>
             <th st-sort="name">name</th>
             <th st-sort="location">location</th>
+            <th st-sort="year">year</th>
             <th class="text-right" st-sort="numberOfWomen">#f</th>
             <th class="text-right" st-sort="getters.numberOfMen">#m</th>
             <th class="text-right" st-sort="getters.diversityPercentage" st-sort-default="reverse">f:m</th>
@@ -42,6 +45,7 @@
           <tr ng-repeat="conf in displayedConferences">
             <td><a href="{{conf.source}}" target="_other">{{conf.name}} ({{conf.year}})</a></td>
             <td>{{conf.location}}</td>            
+            <td>{{conf.year}}</td>            
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{conf.totalSpeakers - conf.numberOfWomen}}</td>
             <td class="text-right">{{conf.numberOfWomen / conf.totalSpeakers * 100 | number : 0}}%</td>
