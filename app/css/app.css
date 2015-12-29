@@ -1,12 +1,20 @@
 /* app css stylesheet */
 
 body {
-  padding-top: 20px;
-  background-image: url("../img/conf-audience.jpg");
-  color: #ddd;
+  	padding-top: 20px;
+  	background-image: url("../img/conf-audience.jpg");
+  	color: #ddd;
+    border-top: 10px solid;
 }
 
 a {
+	color: #fff;
+}
+
+.alert-warning {
+	opacity: 0.7;
+	background-color: #222;
+	border-color: #222;
 	color: #fff;
 }
 
