@@ -7,6 +7,9 @@
   },
   "description": "Stats on gender diversity in tech conferences",
   "license": "MIT",
+  "dependencies": {
+    "bower": "^1.6.9"
+  },
   "devDependencies": {
     "karma": "^0.12.16",
     "karma-chrome-launcher": "^0.1.4",
