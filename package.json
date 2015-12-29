@@ -3,7 +3,8 @@
   "private": true,
   "name": "conf-gen-div",
   "engines": {
-    "node": "5.0.0"
+    "node": "5.0.0",
+    "npm": "3.3.6"
   },
   "description": "Stats on gender diversity in tech conferences",
   "license": "MIT",
