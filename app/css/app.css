@@ -2,6 +2,12 @@
 
 body {
   padding-top: 20px;
+  background-image: url("../img/conf-audience.jpg");
+  color: #ddd;
+}
+
+a {
+	color: #fff;
 }
 
 .st-sort-ascent:before {
