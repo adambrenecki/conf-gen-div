@@ -10,14 +10,12 @@ a {
 	color: #fff;
 }
 
-
 a:visited {
 	color: #fff;
 }
 
 a:hover {
 	color: #fff;
-	font-weight: bold;
 }
 
 .table > tbody > tr > td {
