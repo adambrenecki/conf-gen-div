@@ -48,15 +48,14 @@
             <td>{{conf.year}}</td>            
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{numberOfMen(conf)}}</td>
-            <td class="text-right">{{diversityPercentage(conf) | number : 0}}%</td>
-            <td class="text-right">
+            <td>
               <div ng-switch="diversityScore(conf)">
-                <div ng-switch-when="A" style="width: 50px; background-color: white; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="B" style="width: 50px; background-color: green; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="C" style="width: 50px; background-color: blue; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="D" style="width: 50px; background-color: orange; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="E" style="width: 50px; background-color: fuchsia; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="F" style="width: 50px; background-color: red; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="A" style="float: right; width: 50px; background-color: white; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="B" style="float: right; width: 50px; background-color: green; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="C" style="float: right; width: 50px; background-color: blue; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="D" style="float: right; width: 50px; background-color: orange; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="E" style="float: right; width: 50px; background-color: fuchsia; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="F" style="float: right; width: 50px; background-color: red; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
             </div>
             </td>
           </tr>
