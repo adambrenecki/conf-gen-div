@@ -50,12 +50,12 @@
             <td class="text-right">{{numberOfMen(conf)}}</td>
             <td>
               <div ng-switch="diversityScore(conf)">
-                <div ng-switch-when="A" class="percentage-colour-block" style="background-color: white;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="B" class="percentage-colour-block" style="background-color: green;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="C" class="percentage-colour-block" style="background-color: blue;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="D" class="percentage-colour-block" style="background-color: orange;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="E" class="percentage-colour-block" style="background-color: fuchsia;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="F" class="percentage-colour-block" style="background-color: red;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="A" class="percentage-colour-block" style="background-color: white;">{{diversityPercentage(conf)}}%</div>
+                <div ng-switch-when="B" class="percentage-colour-block" style="background-color: green;">{{diversityPercentage(conf)}}%</div>
+                <div ng-switch-when="C" class="percentage-colour-block" style="background-color: blue;">{{diversityPercentage(conf)}}%</div>
+                <div ng-switch-when="D" class="percentage-colour-block" style="background-color: orange;">{{diversityPercentage(conf)}}%</div>
+                <div ng-switch-when="E" class="percentage-colour-block" style="background-color: fuchsia;">{{diversityPercentage(conf)}}%</div>
+                <div ng-switch-when="F" class="percentage-colour-block" style="background-color: red;">{{diversityPercentage(conf)}}%</div>
             </div>
             </td>
           </tr>
