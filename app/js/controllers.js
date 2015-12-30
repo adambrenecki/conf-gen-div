@@ -18,5 +18,22 @@ angular.module('app', ['smart-table'])
 		$scope.diversityPercentage = function (conf) {
 			return (conf.numberOfWomen / conf.totalSpeakers * 100);
 		};
+
+		$scope.diversityScore = function (conf) {
+			var percentage = this.diversityPercentage(conf);
+			if (percentage < 10) {
+				return "F";
+			} else if (percentage < 20) {
+				return "E";
+			} else if (percentage < 30) {
+				return "D";
+			} else if (percentage < 40) {
+				return "C";
+			} else if (percentage < 50) {
+				return "B";
+			} else {
+ 				return "A";
+ 			}
+		};
 	}]
 );
