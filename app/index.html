@@ -50,12 +50,12 @@
             <td class="text-right">{{numberOfMen(conf)}}</td>
             <td>
               <div ng-switch="diversityScore(conf)">
-                <div ng-switch-when="A" style="float: right; width: 50px; background-color: white; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="B" style="float: right; width: 50px; background-color: green; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="C" style="float: right; width: 50px; background-color: blue; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="D" style="float: right; width: 50px; background-color: orange; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="E" style="float: right; width: 50px; background-color: fuchsia; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
-                <div ng-switch-when="F" style="float: right; width: 50px; background-color: red; text-align: center;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="A" class="percentage-colour-block" style="background-color: white;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="B" class="percentage-colour-block" style="background-color: green;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="C" class="percentage-colour-block" style="background-color: blue;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="D" class="percentage-colour-block" style="background-color: orange;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="E" class="percentage-colour-block" style="background-color: fuchsia;">{{diversityPercentage(conf) | number : 0}}%</div>
+                <div ng-switch-when="F" class="percentage-colour-block" style="background-color: red;">{{diversityPercentage(conf) | number : 0}}%</div>
             </div>
             </td>
           </tr>

@@ -23,6 +23,12 @@ a:hover {
   border-top: none;
 }
 
+.percentage-colour-block {
+	float: right; 
+	width: 50px; 
+	text-align: center;
+}
+
 .table > thead > tr > th.search {
   border-bottom: 0px;
 }
