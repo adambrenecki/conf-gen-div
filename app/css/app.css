@@ -24,7 +24,7 @@ a:hover {
 }
 
 .percentage-colour-block {
-	float: right; 
+	float: left; 
 	width: 50px; 
 	text-align: center;
 	color: white;
