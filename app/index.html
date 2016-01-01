@@ -43,7 +43,10 @@
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
-            <td>{{conf.name}} ({{conf.year}}) <a href="{{conf.source}}" target="_other"><span class="glyphicon glyphicon-link"></span></a></td>
+            <td>
+              {{conf.name}} ({{conf.year}}) 
+              <a href="{{conf.source}}" target="_other"> <span class="glyphicon glyphicon-link"></span></a> 
+            </td>
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{numberOfMen(conf)}}</td>
             <td>
