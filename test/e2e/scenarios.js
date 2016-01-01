@@ -6,27 +6,43 @@ describe('The App', function() {
 
   describe('Main view', function() {
 
+    var ngMockE2E = require('ng-mock-e2e');
+    var $httpBackend = ngMockE2E.$httpBackend;
+ 
     beforeEach(function() {
-      // var httpBackendMock = function() {
-      //   angular.module('httpBackendMock', ['ngMockE2E', 'myApp'])
-      //     .run(function($httpBackend) {
-      //       $httpBackend.whenGET('data/confs.json').respond(200, [{
-      //         name:"Agile Australia ",
-      //         location:"Melbourne, Australia",
-      //         year:"2014",
-      //         totalSpeakers:63,
-      //         numberOfWomen:13,
-      //         source:"http://www.agileaustralia.com.au/speakers.php",
-      //         Notes:"",
-      //       },]);
-      //     })
-      //   }
-      // browser.addMockModule('httpBackendMock', httpBackendMock)
+      ngMockE2E.addMockModule();
+      ngMockE2E.addAsDependencyForModule('app');
+      ngMockE2E.embedScript('/bower_components/angular-mocks/angular-mocks.js');
+    });
 
-      browser.get('app/index.html');
+    afterEach(function () {
+      var originalAddExpectationResult = jasmine.Spec.prototype.addExpectationResult;
+      jasmine.Spec.prototype.addExpectationResult = function() {
+        if (!arguments[0]) {
+          browser.takeScreenshot().then(function(png) {
+            var stream = fs.createWriteStream("/tmp/screenshot.png");
+            stream.write(new Buffer(png, 'base64'));
+            stream.end();
+          });          // this.description and arguments[1].message can be useful to constructing the filename.
+        }
+        return originalAddExpectationResult.apply(this, arguments);
+      };
+
+      ngMockE2E.clearMockModules();
     });
 
     it('should support sorting by conference name', function() {
+      $httpBackend.when('GET','data/confs.json').respond(200, [{
+        "name":"Agile Australia ",
+        "location":"Melbourne, Australia",
+        "year":"2014",
+        "totalSpeakers":63,
+        "numberOfWomen":13,
+        "source":"http://www.agileaustralia.com.au/speakers.php",
+        "Notes":""
+      }]);
+
+      browser.get('app/index.html');
 
       var sortColumn = element.all(by.repeater('conf in displayedConferences').column('conf.name'));
 

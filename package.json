@@ -15,6 +15,7 @@
     "karma-jasmine": "~0.1.0",
     "protractor": "^2.1.0",
     "http-server": "^0.6.1",
+    "ng-mock-e2e": "^0.1.1",
     "tmp": "0.0.23",
     "bower": "^1.6.9",
     "shelljs": "^0.2.6"
