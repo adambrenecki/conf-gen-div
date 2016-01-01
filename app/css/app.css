@@ -27,6 +27,35 @@ a:hover {
 	float: right; 
 	width: 50px; 
 	text-align: center;
+	color: white;
+}
+
+.percentage-cohort-a {
+	background-color: white;
+	color: black;
+}
+
+.percentage-cohort-b {
+	background-color: green;
+}
+
+.percentage-cohort-c {
+	background-color: blue;
+}
+
+.percentage-cohort-d {
+	background-color: orange;
+	color: black;
+}
+
+.percentage-cohort-e {
+	background-color: fuchsia;
+	color: black;
+}
+
+.percentage-cohort-f {
+	background-color: red;
+	color: black;
 }
 
 .table > thead > tr > th.search {
