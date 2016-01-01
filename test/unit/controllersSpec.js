@@ -32,12 +32,23 @@ describe('Controllers', function() {
         stubConf = {totalSpeakers: 20, numberOfWomen: 3};
       });
 
-      it('should derive number of men from other fields', function() {
+      it('numberOfMen should derive number of men from other fields', function() {
         expect(scope.numberOfMen(stubConf)).toEqual(17)
       });
 
-      it('should derive diversity percentage from other fields', function() {
+      it('diversityPercentage should derive diversity percentage from other fields', function() {
         expect(scope.diversityPercentage(stubConf)).toEqual(15)
+      });
+
+      it('diversityScore should score each diversity percentage using school grades', function() {
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 50})).toEqual('A');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 49})).toEqual('B');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 39})).toEqual('C');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 29})).toEqual('D');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 19})).toEqual('E');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 9})).toEqual('F');
+        expect(scope.diversityScore({totalSpeakers: 100, numberOfWomen: 0})).toEqual('F');
+
       });
 
     })
