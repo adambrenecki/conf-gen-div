@@ -2,55 +2,80 @@
 
 /* http://docs.angularjs.org/guide/dev_guide.e2e-testing */
 
-describe('PhoneCat App', function() {
+describe('The App', function() {
 
-  describe('Phone list view', function() {
+  describe('Main view', function() {
 
     beforeEach(function() {
       browser.get('app/index.html');
     });
 
+    it('should support sorting by conference name', function() {
 
-    it('should filter the phone list as a user types into the search box', function() {
-
-      var phoneList = element.all(by.repeater('phone in phones'));
-      var query = element(by.model('query'));
-
-      expect(phoneList.count()).toBe(20);
-
-      query.sendKeys('nexus');
-      expect(phoneList.count()).toBe(1);
-
-      query.clear();
-      query.sendKeys('motorola');
-      expect(phoneList.count()).toBe(8);
-    });
-
-
-    it('should be possible to control phone order via the drop down select box', function() {
-
-      var phoneNameColumn = element.all(by.repeater('phone in phones').column('phone.name'));
-      var query = element(by.model('query'));
+      var sortColumn = element.all(by.repeater('conf in displayedConferences').column('conf.name'));
 
       function getNames() {
-        return phoneNameColumn.map(function(elm) {
+        return sortColumn.map(function(elm) {
           return elm.getText();
         });
       }
 
-      query.sendKeys('tablet'); //let's narrow the dataset to make the test assertions shorter
-
       expect(getNames()).toEqual([
-        "Motorola XOOM\u2122 with Wi-Fi",
-        "MOTOROLA XOOM\u2122"
+        'Webstock (2012)', 
+        'Webstock (2015)', 
+        'Webstock (2014)', 
+        'Products are Hard (2013)', 
+        'RubyConf (2015)', 
+        'Webstock (2013)', 
+        'Agile Australia (2015)', 
+        'JS Conf Melbourne (2014)', 
+        'Agile Australia (2014)', 
+        'Webstock (2011)', 
+        'YOW (2015)', 
+        'YOW (2014)', 
+        'LAST (2013)', 
+        'LAST (2014)', 
+        'YOW Lambda Jam (2014)', 
+        'Webstock (2010)', 
+        'YOW (2013)', 
+        'YOW West (2014)', 
+        'RubyConf (2014)', 
+        'YOW (2013)', 
+        'YOW West (2015)', 
+        'DevOps Days (2015)', 
+        'YOW Lambda Jam (2015)', 
+        'DevOps Downunder (2013)', 
+        'YOW Lambda Jam (2013)'
       ]);
 
-      element(by.model('orderProp')).element(by.css('option[value="name"]')).click();
+      element(by.xpath('//th[@st-sort="name"]')).click();
 
       expect(getNames()).toEqual([
-        "MOTOROLA XOOM\u2122",
-        "Motorola XOOM\u2122 with Wi-Fi"
-      ]);
+        'Agile Australia (2015)', 
+        'Agile Australia (2014)', 
+        'DevOps Days (2015)', 
+        'DevOps Downunder (2013)', 
+        'JS Conf Melbourne (2014)', 
+        'LAST (2013)', 
+        'LAST (2014)', 
+        'Products are Hard (2013)', 
+        'RubyConf (2014)', 
+        'RubyConf (2015)', 
+        'Webstock (2014)', 
+        'Webstock (2015)', 
+        'Webstock (2013)', 
+        'Webstock (2012)', 
+        'Webstock (2011)', 
+        'Webstock (2010)', 
+        'YOW (2013)', 
+        'YOW (2014)', 
+        'YOW (2013)', 
+        'YOW (2015)', 
+        'YOW Lambda Jam (2013)', 
+        'YOW Lambda Jam (2014)', 
+        'YOW Lambda Jam (2015)', 
+        'YOW West (2014)', 
+        'YOW West (2015)']);
     });
   });
 });
