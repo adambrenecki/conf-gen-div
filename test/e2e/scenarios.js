@@ -7,6 +7,22 @@ describe('The App', function() {
   describe('Main view', function() {
 
     beforeEach(function() {
+      // var httpBackendMock = function() {
+      //   angular.module('httpBackendMock', ['ngMockE2E', 'myApp'])
+      //     .run(function($httpBackend) {
+      //       $httpBackend.whenGET('data/confs.json').respond(200, [{
+      //         name:"Agile Australia ",
+      //         location:"Melbourne, Australia",
+      //         year:"2014",
+      //         totalSpeakers:63,
+      //         numberOfWomen:13,
+      //         source:"http://www.agileaustralia.com.au/speakers.php",
+      //         Notes:"",
+      //       },]);
+      //     })
+      //   }
+      // browser.addMockModule('httpBackendMock', httpBackendMock)
+
       browser.get('app/index.html');
     });
 
