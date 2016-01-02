@@ -40,8 +40,8 @@ describe('The App', function() {
     it('should default sort by descending diversity', function() {
       expect(getNames()).toEqual([
         'ZZZZZ Best Diversity (2014)', 
-        'AAAAA Middle Diversity (2014)', 
-        'MMMMM Worst Diversity (2014)'
+        'AAAAA Middle Diversity (2013)', 
+        'MMMMM Worst Diversity (2012)'
       ]);
     });
 
@@ -51,8 +51,8 @@ describe('The App', function() {
       element(by.xpath(nameSorter)).click();
 
       expect(getNames()).toEqual([
-        'AAAAA Middle Diversity (2014)', 
-        'MMMMM Worst Diversity (2014)', 
+        'AAAAA Middle Diversity (2013)', 
+        'MMMMM Worst Diversity (2012)', 
         'ZZZZZ Best Diversity (2014)'
       ]);
 
@@ -60,8 +60,8 @@ describe('The App', function() {
 
       expect(getNames()).toEqual([
         'ZZZZZ Best Diversity (2014)', 
-        'MMMMM Worst Diversity (2014)', 
-        'AAAAA Middle Diversity (2014)'
+        'MMMMM Worst Diversity (2012)', 
+        'AAAAA Middle Diversity (2013)'
       ]);
     });
 
@@ -72,8 +72,8 @@ describe('The App', function() {
       element(by.xpath(diversitySorter)).click();
 
       expect(getNames()).toEqual([
-        'MMMMM Worst Diversity (2014)', 
-        'AAAAA Middle Diversity (2014)',
+        'MMMMM Worst Diversity (2012)', 
+        'AAAAA Middle Diversity (2013)',
         'ZZZZZ Best Diversity (2014)'
       ]);    
 
@@ -81,10 +81,31 @@ describe('The App', function() {
 
       expect(getNames()).toEqual([
         'ZZZZZ Best Diversity (2014)', 
-        'AAAAA Middle Diversity (2014)', 
-        'MMMMM Worst Diversity (2014)'
+        'AAAAA Middle Diversity (2013)', 
+        'MMMMM Worst Diversity (2012)'
       ]);
     });
-      
+
+    it('should support bidirectional sorting by year', function() {
+      var yearSorter = '//th[@st-sort="year"]';
+
+      element(by.xpath(yearSorter)).click();
+
+      expect(getNames()).toEqual([
+        'MMMMM Worst Diversity (2012)', 
+        'AAAAA Middle Diversity (2013)',
+        'ZZZZZ Best Diversity (2014)'
+      ]);    
+
+      element(by.xpath(yearSorter)).click();
+
+      expect(getNames()).toEqual([
+        'ZZZZZ Best Diversity (2014)', 
+        'AAAAA Middle Diversity (2013)', 
+        'MMMMM Worst Diversity (2012)'
+      ]);
+
+    });
+
   });
 });
