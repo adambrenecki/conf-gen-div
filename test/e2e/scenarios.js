@@ -65,5 +65,26 @@ describe('The App', function() {
       ]);
     });
 
+    it('should support bidirectional sorting by diversity', function() {
+      var diversitySorter = '//th[@st-sort="diversityPercentage"]';
+
+      element(by.xpath(diversitySorter)).click(); // skip natural sorted state
+      element(by.xpath(diversitySorter)).click();
+
+      expect(getNames()).toEqual([
+        'MMMMM Worst Diversity (2014)', 
+        'AAAAA Middle Diversity (2014)',
+        'ZZZZZ Best Diversity (2014)'
+      ]);    
+
+      element(by.xpath(diversitySorter)).click();
+
+      expect(getNames()).toEqual([
+        'ZZZZZ Best Diversity (2014)', 
+        'AAAAA Middle Diversity (2014)', 
+        'MMMMM Worst Diversity (2014)'
+      ]);
+    });
+      
   });
 });
