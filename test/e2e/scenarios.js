@@ -8,18 +8,13 @@ describe('The App', function() {
 
     var ngMockE2E = require('ng-mock-e2e');
     var $httpBackend = ngMockE2E.$httpBackend;
+    var confNames = element.all(by.repeater('conf in displayedConferences').column('conf.name'));
  
     beforeEach(function() {
       ngMockE2E.addMockModule();
       ngMockE2E.addAsDependencyForModule('app');
       ngMockE2E.embedScript('/bower_components/angular-mocks/angular-mocks.js');
-    });
 
-    afterEach(function () {
-      ngMockE2E.clearMockModules();
-    });
-
-    it('should support sorting by conference name', function() {
       $httpBackend.when('GET', 'data/confs.json').respond(function(method, url, data) {
         var request = new XMLHttpRequest();
 
@@ -30,28 +25,45 @@ describe('The App', function() {
       });
 
       browser.get('app/index.html');
+    });
 
-      var sortColumn = element.all(by.repeater('conf in displayedConferences').column('conf.name'));
+    afterEach(function () {
+      ngMockE2E.clearMockModules();
+    });
 
-      function getNames() {
-        return sortColumn.map(function(elm) {
-          return elm.getText();
-        });
-      }
+    function getNames() {
+      return confNames.map(function(elm) {
+        return elm.getText();
+      });
+    }
 
+    it('should default sort by descending diversity', function() {
       expect(getNames()).toEqual([
-        'Webstock (2015)',
-        'Webstock (2014)', 
-        'Agile Australia (2014)'
-      ]);
-
-      element(by.xpath('//th[@st-sort="name"]')).click();
-
-      expect(getNames()).toEqual([
-        'Agile Australia (2014)', 
-        'Webstock (2014)', 
-        'Webstock (2015)'
+        'ZZZZZ Best Diversity (2014)', 
+        'AAAAA Middle Diversity (2014)', 
+        'MMMMM Worst Diversity (2014)'
       ]);
     });
+
+    it('should support bidirectional sorting by conference name', function() {
+      var nameSorter = '//th[@st-sort="name"]';
+
+      element(by.xpath(nameSorter)).click();
+
+      expect(getNames()).toEqual([
+        'AAAAA Middle Diversity (2014)', 
+        'MMMMM Worst Diversity (2014)', 
+        'ZZZZZ Best Diversity (2014)'
+      ]);
+
+      element(by.xpath(nameSorter)).click();
+
+      expect(getNames()).toEqual([
+        'ZZZZZ Best Diversity (2014)', 
+        'MMMMM Worst Diversity (2014)', 
+        'AAAAA Middle Diversity (2014)'
+      ]);
+    });
+
   });
 });
