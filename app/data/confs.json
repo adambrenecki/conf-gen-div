@@ -84,9 +84,9 @@
     "name":"RubyConf",
     "location":"Melbourne, Australia",
     "year":"2015",
-    "totalSpeakers":24,
+    "totalSpeakers":23,
     "numberOfWomen":8,
-    "source":"http://www.rubyconf.org.au/2014#speakers",
+    "source":"http://www.rubyconf.org.au/2015#speakers",
     "Notes":"Not including lightning talks"
   },
   {
@@ -176,7 +176,7 @@
     "year":"2014",
     "totalSpeakers":44,
     "numberOfWomen":8,
-    "source":"https://yow.eventer.com/yow-2013-1080",
+    "source":"http://yowconference.com.au/artefacts/YOW2014SpeakerSummary.pdf",
     "Notes":"Speakers covers both workshops and sessions"
   },
   {
@@ -185,7 +185,7 @@
     "year":"2013",
     "totalSpeakers":37,
     "numberOfWomen":3,
-    "source":"http://yowconference.com.au/artefacts/YOW2014SpeakerSummary.pdf",
+    "source":"https://yow.eventer.com/yow-2013-1080",
     "Notes":"Speakers covers both workshops and sessions"
   },
   {
@@ -203,7 +203,7 @@
     "year":"2015",
     "totalSpeakers":32,
     "numberOfWomen":0,
-    "source":"",
+    "source":"https://yow.eventer.com/yow-lambda-jam-2015-1305",
     "Notes":"Not including lightning talks"
   },
   {
