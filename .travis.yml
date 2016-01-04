@@ -1,0 +1,6 @@
+git:
+	depth: 3
+script: npm run test-single-run
+language: node_js
+node_js:
+  - 0.8
