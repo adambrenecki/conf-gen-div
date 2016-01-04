@@ -18,7 +18,7 @@ describe('The App', function() {
       $httpBackend.when('GET', 'data/confs.json').respond(function(method, url, data) {
         var request = new XMLHttpRequest();
 
-        request.open('GET', 'data/test-confs.json', false);
+        request.open('GET', '../test/fixtures/test-confs.json', false);
         request.send(null);
 
         return [request.status, request.response, {}];

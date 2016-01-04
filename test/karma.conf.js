@@ -10,6 +10,9 @@ module.exports = function(config){
       'bower_components/angular-smart-table/dist/smart-table.min.js',
       'app/js/**/*.js',
       'test/unit/**/*.js'
+
+      // fixtures
+      {pattern: 'test/fixtures/**/*.json', watched: true, served: true, included: false}
     ],
 
     autoWatch : true,
