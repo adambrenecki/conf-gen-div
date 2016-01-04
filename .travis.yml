@@ -1,6 +1,4 @@
 script: npm run test-single-run
 language: node_js
-node_js:
-  - 0.8
 before_install:
   npm install -g npm@'>=1.4.3'
