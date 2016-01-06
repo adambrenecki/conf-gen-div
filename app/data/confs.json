@@ -223,5 +223,14 @@
     "numberOfWomen":0,
     "source":"http://www.devopsdays.org/events/2015-melbourne/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
+  },
+  {
+    "name":"Pause Fest - tech stream",
+    "location":"Melbourne, Australia",
+    "year":"2016",
+    "totalSpeakers":37,
+    "numberOfWomen":15,
+    "source":"http://www.pausefest.com.au/speakers/",
+    "Notes":"Tech stream only"
   }
 ]
