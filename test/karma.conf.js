@@ -5,7 +5,6 @@ module.exports = function(config){
 
     files : [
       'bower_components/angular/angular.js',
-      'bower_components/angular-route/angular-route.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'bower_components/angular-smart-table/dist/smart-table.min.js',
       'app/js/**/*.js',
@@ -28,7 +27,7 @@ module.exports = function(config){
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
     },
-    
+
     // start these browsers
     browsers: ['Chrome', 'ChromeCanary'],
 
