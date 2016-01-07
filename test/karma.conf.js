@@ -27,7 +27,8 @@ module.exports = function(config){
     junitReporter : {
       outputFile: 'test_out/unit.xml',
       suite: 'unit'
-    }
+    },
+    
     // start these browsers
     browsers: ['Chrome', 'ChromeCanary'],
 
@@ -36,7 +37,7 @@ module.exports = function(config){
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
-    },
+    }
 
 
   };
