@@ -322,14 +322,5 @@
     "numberOfWomen":5,
     "source":"http://2016.jsconfau.com/",
     "Notes":""
-  },
-	{
-    "name":"Pause Fest - tech stream",
-    "location":"Melbourne, Australia",
-    "year":"2016",
-    "totalSpeakers":37,
-    "numberOfWomen":15,
-    "source":"http://www.pausefest.com.au/speakers/",
-    "Notes":"Tech stream only"
   }
 ]
