@@ -3,8 +3,7 @@
   "private": true,
   "name": "conf-gen-div",
   "engines": {
-    "node": "5.0.0",
-    "npm": "3.3.6"
+    "node": "5.0.0"
   },
   "description": "Stats on gender diversity in tech conferences",
   "license": "MIT",
@@ -35,6 +34,7 @@
   },
   "dependencies": {
     "angular-smart-table": "2.1.5",
+    "http-server": "^0.6.1",
     "bower": "1.6.9"
   }
 }
