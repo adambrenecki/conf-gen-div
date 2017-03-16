@@ -1,0 +1,324 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"GIT",
+				"GITHUB_REPO"
+			],
+			[
+				"GITH",
+				"GITHUB_REPO"
+			],
+			[
+				"metr",
+				"metrics-file-name"
+			],
+			[
+				"not",
+				"notation-file-name"
+			],
+			[
+				"com",
+				"combined-metrics"
+			],
+			[
+				"all",
+				"all-margins"
+			],
+			[
+				"act",
+				"actual-grade"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 227.0,
+		"last_filter": "open",
+		"selected_items":
+		[
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git q",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git ad",
+				"Git: Add All"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			]
+		],
+		"width": 339.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/amarks/Code/conf-gen-div"
+	],
+	"file_history":
+	[
+		"/home/amarks/Code/react/server.js",
+		"/home/amarks/Code/react/app.js",
+		"/home/amarks/Code/react/.dockerignore",
+		"/home/amarks/Code/react/package.json",
+		"/home/amarks/Code/aeolian/test/aeolian/core_test.clj",
+		"/home/amarks/Code/aeolian/src/aeolian/core.clj",
+		"/home/amarks/Code/aeolian/.gitignore",
+		"/home/amarks/Code/aeolian/README.md",
+		"/home/amarks/Code/aeolian/go.sh",
+		"/home/amarks/Code/aeolian/test/aeolian/parser_test.clj",
+		"/home/amarks/Code/aeolian/resources/go.sh",
+		"/home/amarks/Code/simtwop-web/project.clj",
+		"/home/amarks/Downloads/config.,js"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 73.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"World",
+			"txt",
+			")\n",
+			" (",
+			"timidity",
+			"\nif ! which abc2midi &> /dev/null; then\n\t>&2 echo “Error: Please install abc2midi and make sure it is in your path”\n\texit 1\nfi",
+			"database-url",
+			":))",
+			"database-url",
+			" (/",
+			"lead",
+			"    (is (< (margin-calc {:grade :lead} {:grade :lead})\n            (margin-calc {:grade :senior} {:grade :senior})))\n",
+			"Loading"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 26.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 76.0
+	},
+	"pinned_build_system": "",
+	"project": "conf-gen-div.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"cor",
+				"src/aeolian/core.clj"
+			],
+			[
+				"pars",
+				"src/aeolian/parser.clj"
+			],
+			[
+				"go.",
+				"go.sh"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"proj",
+				"project.clj"
+			],
+			[
+				"sim",
+				"resources/public/js/simtwop.js"
+			],
+			[
+				"db",
+				"src/clj/simtwop_web/db/core.clj"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 285.0
+	},
+	"select_symbol":
+	{
+		"height": 281.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 325.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

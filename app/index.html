@@ -51,8 +51,8 @@
             </td>
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{numberOfMen(conf)}}</td>
-            <td>
-              <div ng-switch="diversityScore(conf)" class="percentage-colour-block text-right">
+            <td class="text-right">
+              <div ng-switch="diversityScore(conf)" class="percentage-colour-block">
                 <div ng-switch-when="A" class="percentage-cohort-a">{{diversityPercentage(conf)}}%</div>
                 <div ng-switch-when="B" class="percentage-cohort-b">{{diversityPercentage(conf)}}%</div>
                 <div ng-switch-when="C" class="percentage-cohort-c">{{diversityPercentage(conf)}}%</div>
