@@ -35,6 +35,11 @@
   "dependencies": {
     "angular-smart-table": "2.1.5",
     "http-server": "^0.6.1",
-    "bower": "1.6.9"
+    "tmp": "0.0.23",
+    "bower": "1.6.9",
+    "angular": "1.4.x",
+    "angular-smart-table": "~2.1.5",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.1.1"
   }
 }
