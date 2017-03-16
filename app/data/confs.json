@@ -242,6 +242,24 @@
     "source":"http://www.devopsdays.org/events/2015-melbourne/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
   },
+  {
+    "name":"DevOps Days",
+    "location":"Brisbane, Australia",
+    "year":"2014",
+    "totalSpeakers":11,
+    "numberOfWomen":1,
+    "source":"https://legacy.devopsdays.org/events/2014-brisbane/program/",
+    "Notes":"Partly unfonference - possible unscheduled talks by women"
+  },
+  {
+    "name":"DevOps Days",
+    "location":"Sydney, Australia",
+    "year":"2016",
+    "totalSpeakers":9,
+    "numberOfWomen":2,
+    "source":"https://www.devopsdays.org/events/2016-sydney/speakers/",
+    "Notes":"Partly unfonference - possible unscheduled talks by women"
+  },
  {
     "name":"RubyConf",
     "location":"Sydney, Australia",
