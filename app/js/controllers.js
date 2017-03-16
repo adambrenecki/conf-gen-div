@@ -15,6 +15,18 @@ angular.module('app', ['smart-table'])
 			return (conf.totalSpeakers - conf.numberOfWomen);
 		};
 
+		$scope.year = function (conf) {
+			var thisYear = new Date().getFullYear();
+			var yearDiff = thisYear - conf.year;
+			if (yearDiff == 0) {
+				return "this year";
+			} else if (yearDiff == 1) {
+				return "last year";
+			} else {
+				return yearDiff + " years ago";
+			}
+		}
+
 		$scope.diversityPercentage = function (conf) {
 			return (conf.numberOfWomen / conf.totalSpeakers * 100) | $filter('number')(0);
 		};
