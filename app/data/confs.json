@@ -5,98 +5,44 @@
     "year":"2014",
     "totalSpeakers":63,
     "numberOfWomen":13,
-    "source":"http://www.agileaustralia.com.au/speakers.php",
+    "source":"http://www.agileaustralia.com.au/2014/keynote-speakers/speakers",
     "Notes":""
   },
   {
-    "name":"Web Directions Code",
+    "name":"Agile Australia",
     "location":"Melbourne, Australia",
     "year":"2015",
-    "totalSpeakers":20,
-    "numberOfWomen":3,
-    "source":"http://www.webdirections.org/code15/#speakers",
+    "totalSpeakers":70,
+    "numberOfWomen":15,
+    "source":"http://www.agileaustralia.com.au/2015/keynote-speakers/speakers",
     "Notes":""
   },
   {
-    "name":"Webstock",
-    "location":"Wellington, New Zealand",
-    "year":"2014",
-    "totalSpeakers":19,
-    "numberOfWomen":7,
-    "source":"http://www.webstock.org.nz/talks/#Webstock14",
-    "Notes":""
-  },
-  {
-    "name":"Webstock",
-    "location":"Wellington, New Zealand",
-    "year":"2015",
-    "totalSpeakers":22,
-    "numberOfWomen":8,
-    "source":"http://www.webstock.org.nz/talks/#Webstock15",
-    "Notes":""
-  },
-  {
-    "name":"JS Conf Melbourne",
+    "name":"Agile Australia",
     "location":"Melbourne, Australia",
-    "year":"2014",
-    "totalSpeakers":10,
-    "numberOfWomen":2,
-    "source":"http://au.jsconf.com/speakers",
+    "year":"2016",
+    "totalSpeakers":62,
+    "numberOfWomen":19,
+    "source":"http://www.agileaustralia.com.au/2016/keynote-speakers/speakers",
     "Notes":""
   },
   {
-    "name":"YOW",
-    "location":"Melbourne, Australia",
-    "year":"2013",
-    "totalSpeakers":33,
-    "numberOfWomen":4,
-    "source":"http://yow.eventer.com/yow-2013-1080",
-    "Notes":""
-  },
-  {
-    "name":"YOW Lambda Jam",
-    "location":"Brisbane, Australia",
-    "year":"2013",
-    "totalSpeakers":13,
-    "numberOfWomen":0,
-    "source":"https://www.conferize.com/conferences/yow-lambda-jam-2013/speakers",
-    "Notes":""
-  },
-  {
-    "name":"YOW Lambda Jam",
-    "location":"Brisbane, Australia",
-    "year":"2014",
-    "totalSpeakers":12,
-    "numberOfWomen":2,
-    "source":"http://lanyrd.com/2014/yow-oz/speakers/",
-    "Notes":""
-  },
-  {
-    "name":"DevOps Downunder",
-    "location":"Melbourne, Australia",
-    "year":"2013",
-    "totalSpeakers":7,
-    "numberOfWomen":0,
-    "source":"http://www.devopsdays.org/events/2013-downunder/program/",
-    "Notes":"Partly unfonference - possible unscheduled talks by women"
-  },
-  {
-    "name":"RubyConf",
-    "location":"Sydney, Australia",
-    "year":"2014",
-    "totalSpeakers":28,
-    "numberOfWomen":3,
-    "source":"http://www.rubyconf.org.au/2014#speakers",
-    "Notes":"Not including lightning talks"
-  },
-  {
-    "name":"RubyConf",
+    "name":"LAST",
     "location":"Melbourne, Australia",
     "year":"2015",
-    "totalSpeakers":23,
-    "numberOfWomen":8,
-    "source":"http://www.rubyconf.org.au/2015#speakers",
-    "Notes":"Not including lightning talks"
+    "totalSpeakers":87,
+    "numberOfWomen":19,
+    "source":"http://lanyrd.com/2015/lastconf/speakers",
+    "Notes":""
+  },
+  {
+    "name":"LAST",
+    "location":"Melbourne, Australia",
+    "year":"2016",
+    "totalSpeakers":133,
+    "numberOfWomen":33,
+    "source":"http://lanyrd.com/2016/lastconf/speakers",
+    "Notes":""
   },
   {
     "name":"LAST",
@@ -117,12 +63,39 @@
     "Notes":""
   },
   {
-    "name":"Products are Hard",
-    "location":"Melbourne, Australia",
-    "year":"2013",
-    "totalSpeakers":12,
-    "numberOfWomen":4,
-    "source":"http://productsarehard.com/PAHMEL13/speakers/",
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2017",
+    "totalSpeakers":21,
+    "numberOfWomen":11,
+    "source":"http://www.webstock.org.nz/talks/#Webstock17",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2016",
+    "totalSpeakers":19,
+    "numberOfWomen":10,
+    "source":"http://www.webstock.org.nz/talks/#Webstock16",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2014",
+    "totalSpeakers":19,
+    "numberOfWomen":7,
+    "source":"http://www.webstock.org.nz/talks/#Webstock14",
+    "Notes":""
+  },
+  {
+    "name":"Webstock",
+    "location":"Wellington, New Zealand",
+    "year":"2015",
+    "totalSpeakers":22,
+    "numberOfWomen":8,
+    "source":"http://www.webstock.org.nz/talks/#Webstock15",
     "Notes":""
   },
   {
@@ -162,21 +135,12 @@
     "Notes":""
   },
   {
-    "name":"YOW West",
-    "location":"Perth, Australia",
-    "year":"2014",
-    "totalSpeakers":26,
-    "numberOfWomen":3,
-    "source":"http://west.yowconference.com.au/speakers/",
-    "Notes":""
-  },
-  {
-    "name":"Agile Australia",
+    "name":"YOW",
     "location":"Melbourne, Australia",
-    "year":"2015",
-    "totalSpeakers":70,
-    "numberOfWomen":15,
-    "source":"http://www.agileaustralia.com.au/2015/keynote-speakers/speakers",
+    "year":"2016",
+    "totalSpeakers":39,
+    "numberOfWomen":13,
+    "source":"http://melbourne.yowconference.com.au/",
     "Notes":""
   },
   {
@@ -185,7 +149,7 @@
     "year":"2014",
     "totalSpeakers":44,
     "numberOfWomen":8,
-    "source":"http://yowconference.com.au/artefacts/YOW2014SpeakerSummary.pdf",
+    "source":"http://melbourne.yowconference.com.au/",
     "Notes":"Speakers covers both workshops and sessions"
   },
   {
@@ -194,7 +158,7 @@
     "year":"2013",
     "totalSpeakers":37,
     "numberOfWomen":3,
-    "source":"https://yow.eventer.com/yow-2013-1080",
+    "source":"http://melbourne.yowconference.com.au/",
     "Notes":"Speakers covers both workshops and sessions"
   },
   {
@@ -203,8 +167,26 @@
     "year":"2015",
     "totalSpeakers":38,
     "numberOfWomen":7,
-    "source":"http://melbourne.yowconference.com.au/speakers/",
+    "source":"http://melbourne.yowconference.com.au/",
     "Notes":"Speakers covers both workshops and sessions"
+  },
+  {
+    "name":"YOW Lambda Jam",
+    "location":"Brisbane, Australia",
+    "year":"2013",
+    "totalSpeakers":13,
+    "numberOfWomen":0,
+    "source":"https://www.conferize.com/conferences/yow-lambda-jam-2013/speakers",
+    "Notes":""
+  },
+  {
+    "name":"YOW Lambda Jam",
+    "location":"Brisbane, Australia",
+    "year":"2014",
+    "totalSpeakers":12,
+    "numberOfWomen":2,
+    "source":"http://lanyrd.com/2014/yow-oz/speakers/",
+    "Notes":""
   },
   {
     "name":"YOW Lambda Jam",
@@ -218,11 +200,38 @@
   {
     "name":"YOW West",
     "location":"Perth, Australia",
+    "year":"2014",
+    "totalSpeakers":26,
+    "numberOfWomen":3,
+    "source":"http://west.yowconference.com.au/",
+    "Notes":""
+  },
+  {
+    "name":"YOW West",
+    "location":"Perth, Australia",
     "year":"2015",
     "totalSpeakers":34,
     "numberOfWomen":2,
-    "source":"https://a.confui.com/public/conferences/54fae12ed02ecad6f60000a8/locations/54fae12ed02ecad6f60000a9/schedule",
+    "source":"http://west.yowconference.com.au/",
     "Notes":""
+  },
+  {
+    "name":"YOW West",
+    "location":"Perth, Australia",
+    "year":"2016",
+    "totalSpeakers":30,
+    "numberOfWomen":2,
+    "source":"http://west.yowconference.com.au/",
+    "Notes":""
+  },
+  {
+    "name":"DevOps Downunder",
+    "location":"Melbourne, Australia",
+    "year":"2013",
+    "totalSpeakers":7,
+    "numberOfWomen":0,
+    "source":"http://www.devopsdays.org/events/2013-downunder/program/",
+    "Notes":"Partly unfonference - possible unscheduled talks by women"
   },
   {
     "name":"DevOps Days",
@@ -233,7 +242,52 @@
     "source":"http://www.devopsdays.org/events/2015-melbourne/program/",
     "Notes":"Partly unfonference - possible unscheduled talks by women"
   },
+ {
+    "name":"RubyConf",
+    "location":"Sydney, Australia",
+    "year":"2014",
+    "totalSpeakers":28,
+    "numberOfWomen":3,
+    "source":"http://www.rubyconf.org.au/2014#speakers",
+    "Notes":"Not including lightning talks"
+  },
   {
+    "name":"RubyConf",
+    "location":"Melbourne, Australia",
+    "year":"2015",
+    "totalSpeakers":23,
+    "numberOfWomen":8,
+    "source":"http://www.rubyconf.org.au/2015#speakers",
+    "Notes":"Not including lightning talks"
+  },
+ {
+    "name":"Web Directions Code",
+    "location":"Melbourne, Australia",
+    "year":"2015",
+    "totalSpeakers":20,
+    "numberOfWomen":3,
+    "source":"http://www.webdirections.org/code15/#speakers",
+    "Notes":""
+  },
+  {
+    "name":"JS Conf Melbourne",
+    "location":"Melbourne, Australia",
+    "year":"2014",
+    "totalSpeakers":10,
+    "numberOfWomen":2,
+    "source":"http://au.jsconf.com/speakers",
+    "Notes":""
+  },
+  {
+    "name":"Products are Hard",
+    "location":"Melbourne, Australia",
+    "year":"2013",
+    "totalSpeakers":12,
+    "numberOfWomen":4,
+    "source":"http://productsarehard.com/PAHMEL13/speakers/",
+    "Notes":""
+  },
+	{
     "name":"Pause Fest - tech stream",
     "location":"Melbourne, Australia",
     "year":"2016",
