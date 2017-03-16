@@ -260,6 +260,24 @@
     "source":"http://www.rubyconf.org.au/2015#speakers",
     "Notes":"Not including lightning talks"
   },
+  {
+    "name":"RubyConf",
+    "location":"Gold Coast, Australia",
+    "year":"2016",
+    "totalSpeakers":27,
+    "numberOfWomen":10,
+    "source":"http://www.rubyconf.org.au/2016/speakers",
+    "Notes":"Not including lightning talks"
+  },
+  {
+    "name":"RubyConf",
+    "location":"Melbourne, Australia",
+    "year":"2017",
+    "totalSpeakers":28,
+    "numberOfWomen":10,
+    "source":"http://www.rubyconf.org.au/2017/speakers",
+    "Notes":"Not including lightning talks"
+  },
  {
     "name":"Web Directions Code",
     "location":"Melbourne, Australia",
