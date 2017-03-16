@@ -34,12 +34,12 @@
             </th> 
           </tr>
  -->          <tr>
-            <th st-sort="name">name</th>
-            <th class="text-right" st-sort="numberOfWomen">#f</th>
-            <th class="text-right" st-sort="numberOfMen">#m</th>
-            <th class="text-left" st-sort="diversityPercentage" st-sort-default="reverse">f:m</th>
-            <th st-sort="year">year</th>
-            <th st-sort="location">location</th>
+            <th st-sort="name" st-skip-natural="true" >name</th>
+            <th class="text-right" st-sort="numberOfWomen" st-skip-natural="true" >#f</th>
+            <th class="text-right" st-sort="numberOfMen" st-skip-natural="true" >#m</th>
+            <th class="text-left" st-sort="diversityPercentage" st-sort-default="reverse" st-skip-natural="true" >f:m</th>
+            <th st-sort="year" st-skip-natural="true" >year</th>
+            <th st-sort="location" st-skip-natural="true" >location</th>
           </tr>
           </thead>
           <tr ng-repeat="conf in displayedConferences">
