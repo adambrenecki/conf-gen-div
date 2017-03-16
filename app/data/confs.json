@@ -315,6 +315,15 @@
     "Notes":""
   },
   {
+    "name":"JS Conf Melbourne",
+    "location":"Melbourne, Australia",
+    "year":"2016",
+    "totalSpeakers":9,
+    "numberOfWomen":5,
+    "source":"http://2016.jsconfau.com/",
+    "Notes":""
+  },
+  {
     "name":"Products are Hard",
     "location":"Melbourne, Australia",
     "year":"2013",
