@@ -13,7 +13,7 @@
             <td>
               <a href="{{conf.source}}" target="_other"> 
                 <span style="font-size: 10px" class="glyphicon glyphicon-link"></span></a> 
-              {{conf.name}} ({{conf.friendlyYear}}) 
+              {{conf.name}} ({{conf.year}}) 
               
             </td>
             <td class="text-right">{{conf.numberOfWomen}}</td>
@@ -28,7 +28,7 @@
                 <div ng-switch-when="F" class="percentage-cohort-f">{{diversityPercentage(conf)}}%</div>
             </div>
             </td>
-            <td>{{year(conf)}}</td>            
+            <td>{{friendlyYear(conf)}}</td>            
             <td>{{conf.location}}</td>            
 
           </tr>
