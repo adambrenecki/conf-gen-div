@@ -29,7 +29,14 @@ describe('Controllers', function() {
     describe('helper functions', function() {
       var stubConf;
       beforeEach(function() {
+        jasmine.clock().mockDate(new Date(2015, 1, 1));
         stubConf = {totalSpeakers: 20, numberOfWomen: 3};
+      });
+
+      it('year should provide a friendly version of the conf year', function() {
+        expect(scope.year({year: 2015})).toEqual("this year")
+        expect(scope.year({year: 2014})).toEqual("last year")
+        expect(scope.year({year: 2013})).toEqual("2 years ago")
       });
 
       it('numberOfMen should derive number of men from other fields', function() {

@@ -29,7 +29,7 @@ module.exports = function(config){
     },
 
     // start these browsers
-    browsers: ['Chrome', 'ChromeCanary'],
+    browsers: ['Chrome'],
 
     customLaunchers: {
       Chrome_travis_ci: {
