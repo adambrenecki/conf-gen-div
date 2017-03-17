@@ -13,7 +13,7 @@ describe('The App', function() {
     beforeEach(function() {
       ngMockE2E.addMockModule();
       ngMockE2E.addAsDependencyForModule('app');
-      ngMockE2E.embedScript('/bower_components/angular-mocks/angular-mocks.js');
+      ngMockE2E.embedScript('/node_modules/angular-mocks/angular-mocks.js');
 
       $httpBackend.when('GET', 'data/confs.json').respond(function(method, url, data) {
         var request = new XMLHttpRequest();
