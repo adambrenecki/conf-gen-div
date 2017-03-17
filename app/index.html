@@ -28,46 +28,7 @@
             Below is the information I’ve gathered so far in all it’s empirical glory.
         </div>
 
-        <table st-table="displayedConferences" st-safe-src="loadedConferences" class="table">
-          <thead>
-<!--           <tr>
-            <th class="search">
-              <input st-search placeholder="Search" class="input-sm form-control" type="search"/>
-            </th> 
-          </tr>
- -->          <tr>
-            <th st-sort="name" st-skip-natural="true" >name</th>
-            <th class="text-right" st-sort="numberOfWomen" st-skip-natural="true" >#f</th>
-            <th class="text-right" st-sort="numberOfMen" st-skip-natural="true" >#m</th>
-            <th class="text-left" st-sort="diversityPercentage" st-sort-default="reverse" st-skip-natural="true" >f:m</th>
-            <th st-sort="year" st-skip-natural="true" >year</th>
-            <th st-sort="location" st-skip-natural="true" >location</th>
-          </tr>
-          </thead>
-          <tr ng-repeat="conf in displayedConferences">
-            <td>
-              <a href="{{conf.source}}" target="_other"> 
-                <span style="font-size: 10px" class="glyphicon glyphicon-link"></span></a> 
-              {{conf.name}} ({{conf.friendlyYear}}) 
-              
-            </td>
-            <td class="text-right">{{conf.numberOfWomen}}</td>
-            <td class="text-right">{{numberOfMen(conf)}}</td>
-            <td class="text-right">
-              <div ng-switch="diversityScore(conf)" class="percentage-colour-block">
-                <div ng-switch-when="A" class="percentage-cohort-a">{{diversityPercentage(conf)}}%</div>
-                <div ng-switch-when="B" class="percentage-cohort-b">{{diversityPercentage(conf)}}%</div>
-                <div ng-switch-when="C" class="percentage-cohort-c">{{diversityPercentage(conf)}}%</div>
-                <div ng-switch-when="D" class="percentage-cohort-d">{{diversityPercentage(conf)}}%</div>
-                <div ng-switch-when="E" class="percentage-cohort-e">{{diversityPercentage(conf)}}%</div>
-                <div ng-switch-when="F" class="percentage-cohort-f">{{diversityPercentage(conf)}}%</div>
-            </div>
-            </td>
-            <td>{{year(conf)}}</td>            
-            <td>{{conf.location}}</td>            
-
-          </tr>
-        </table>
+        <div ng-include="'conflist.html'"></div>
 
         <div class="alert alert-warning" role="alert">
             <strong>Disclaimer:</strong>
