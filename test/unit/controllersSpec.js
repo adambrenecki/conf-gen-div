@@ -34,9 +34,9 @@ describe('Controllers', function() {
       });
 
       it('year should provide a friendly version of the conf year', function() {
-        expect(scope.year({year: 2015})).toEqual("this year")
-        expect(scope.year({year: 2014})).toEqual("last year")
-        expect(scope.year({year: 2013})).toEqual("2 years ago")
+        expect(scope.friendlyYear({year: 2015})).toEqual("this year")
+        expect(scope.friendlyYear({year: 2014})).toEqual("last year")
+        expect(scope.friendlyYear({year: 2013})).toEqual("2 years ago")
       });
 
       it('numberOfMen should derive number of men from other fields', function() {

@@ -15,7 +15,7 @@ angular.module('app', ['smart-table'])
 			return (conf.totalSpeakers - conf.numberOfWomen);
 		};
 
-		$scope.year = function (conf) {
+		$scope.friendlyYear = function (conf) {
 			var thisYear = new Date().getFullYear();
 			var yearDiff = thisYear - conf.year;
 			if (yearDiff == 0) {
