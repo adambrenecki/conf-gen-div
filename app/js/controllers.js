@@ -1,14 +1,5 @@
 'use strict';
 
-/* Controllers */
-
-var directive = function() {
-	return {
-		scope: true,
-		templateUrl: 'components/conflist/conflist.html'
-	};
-
-};
 
 var controller = function($scope, $http, $filter) {
 	$http.get('data/confs.json').success(function(data) {
@@ -55,6 +46,15 @@ var controller = function($scope, $http, $filter) {
 	};
 };
 
+var directive = function() {
+	return {
+		scope: true,
+		templateUrl: 'components/conflist/conflist.html',
+		controller: controller,
+		controllerAs: 'ctrl'
+	};
+
+};
+
 angular.module('app', ['smart-table'])
-	.directive('conflist', directive)
-	.controller('ConfListCtrl', ['$scope', '$http', '$filter', controller]);
+	.directive('conflist', directive);
