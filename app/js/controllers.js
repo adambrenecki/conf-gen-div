@@ -3,6 +3,12 @@
 /* Controllers */
 
 angular.module('app', ['smart-table'])
+.directive('conflist', function() {
+	return {
+		scope: true,
+		templateUrl: 'components/conflist/conflist.html'
+	};
+})
 .controller('ConfListCtrl', ['$scope', '$http', '$filter', 
 	function($scope, $http, $filter) {
 		$http.get('data/confs.json').success(function(data) {
