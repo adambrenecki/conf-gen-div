@@ -57,4 +57,17 @@ var directive = function() {
 };
 
 angular.module('app', ['smart-table'])
+	.filter('friendlyYear', function() {
+		return function (year) {
+		var thisYear = new Date().getFullYear();
+		var yearDiff = thisYear - year;
+		if (yearDiff == 0) {
+			return "this year";
+		} else if (yearDiff == 1) {
+			return "last year";
+		} else {
+			return yearDiff + " years ago";
+		}
+	}		
+	})
 	.directive('conflist', directive);
