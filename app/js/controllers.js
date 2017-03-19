@@ -3,31 +3,30 @@
 
 var controller = function($scope, $http, $filter) {
 	$http.get('data/confs.json').success(function(data) {
+		for (var i = 0; i < data.length; i += 1) {
+			data[i]['numberOfMen'] = data[i].totalSpeakers - data[i].numberOfWomen;
+			data[i]['diversityPercentage'] = data[i].numberOfWomen / data[i].totalSpeakers * 100
+			data[i]['diversityScore'] = function() {
+				var percentage = data[i]['diversityPercentage'];
+				if (percentage < 10) {
+					return "F";
+				} else if (percentage < 20) {
+					return "E";
+				} else if (percentage < 30) {
+					return "D";
+				} else if (percentage < 40) {
+					return "C";
+				} else if (percentage < 50) {
+					return "B";
+				} else {
+					return "A";
+				}
+			};	
+		}
 		$scope.loadedConferences = data;
 	});
 	
 	$scope.displayedConferences = [].concat($scope.loadedConferences);
-
-	$scope.diversityPercentage = function (conf) {
-		return (conf.numberOfWomen / conf.totalSpeakers * 100) | $filter('number')(0);
-	};
-
-	$scope.diversityScore = function (conf) {
-		var percentage = this.diversityPercentage(conf);
-		if (percentage < 10) {
-			return "F";
-		} else if (percentage < 20) {
-			return "E";
-		} else if (percentage < 30) {
-			return "D";
-		} else if (percentage < 40) {
-			return "C";
-		} else if (percentage < 50) {
-			return "B";
-		} else {
-			return "A";
-		}
-	};
 };
 
 var directive = function() {
@@ -41,15 +40,23 @@ var directive = function() {
 };
 
 angular.module('app', ['smart-table'])
-	.filter('diversityPercentage', function($filter) {
+	.filter('diversityScore', function() {
 		return function (conf) {
-			return ((conf.numberOfWomen / conf.totalSpeakers * 100) | $filter('number')(0));
+			var percentage = (conf.numberOfWomen / conf.totalSpeakers * 100);
+			if (percentage < 10) {
+				return "F";
+			} else if (percentage < 20) {
+				return "E";
+			} else if (percentage < 30) {
+				return "D";
+			} else if (percentage < 40) {
+				return "C";
+			} else if (percentage < 50) {
+				return "B";
+			} else {
+				return "A";
+			}
 		};	
-	})
-	.filter('numberOfMen', function() {
-		return function (conf) {
-			return (conf.totalSpeakers - conf.numberOfWomen);
-		};		
 	})
 	.filter('friendlyYear', function() {
 		return function (year) {
