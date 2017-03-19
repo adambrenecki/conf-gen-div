@@ -8,22 +8,6 @@ var controller = function($scope, $http, $filter) {
 	
 	$scope.displayedConferences = [].concat($scope.loadedConferences);
 
-	$scope.numberOfMen = function (conf) {
-		return (conf.totalSpeakers - conf.numberOfWomen);
-	};
-
-	$scope.friendlyYear = function (conf) {
-		var thisYear = new Date().getFullYear();
-		var yearDiff = thisYear - conf.year;
-		if (yearDiff == 0) {
-			return "this year";
-		} else if (yearDiff == 1) {
-			return "last year";
-		} else {
-			return yearDiff + " years ago";
-		}
-	}
-
 	$scope.diversityPercentage = function (conf) {
 		return (conf.numberOfWomen / conf.totalSpeakers * 100) | $filter('number')(0);
 	};
@@ -57,17 +41,22 @@ var directive = function() {
 };
 
 angular.module('app', ['smart-table'])
+	.filter('numberOfMen', function() {
+		return function (conf) {
+			return (conf.totalSpeakers - conf.numberOfWomen);
+		};		
+	})
 	.filter('friendlyYear', function() {
 		return function (year) {
-		var thisYear = new Date().getFullYear();
-		var yearDiff = thisYear - year;
-		if (yearDiff == 0) {
-			return "this year";
-		} else if (yearDiff == 1) {
-			return "last year";
-		} else {
-			return yearDiff + " years ago";
-		}
-	}		
+			var thisYear = new Date().getFullYear();
+			var yearDiff = thisYear - year;
+			if (yearDiff == 0) {
+				return "this year";
+			} else if (yearDiff == 1) {
+				return "last year";
+			} else {
+				return yearDiff + " years ago";
+			}
+		}		
 	})
 	.directive('conflist', directive);
