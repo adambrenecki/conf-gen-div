@@ -41,6 +41,11 @@ var directive = function() {
 };
 
 angular.module('app', ['smart-table'])
+	.filter('diversityPercentage', function($filter) {
+		return function (conf) {
+			return ((conf.numberOfWomen / conf.totalSpeakers * 100) | $filter('number')(0));
+		};	
+	})
 	.filter('numberOfMen', function() {
 		return function (conf) {
 			return (conf.totalSpeakers - conf.numberOfWomen);
