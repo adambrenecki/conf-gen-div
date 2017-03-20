@@ -19,13 +19,8 @@
             <td class="text-right">{{conf.numberOfWomen}}</td>
             <td class="text-right">{{conf.numberOfMen}}</td>
             <td class="text-right">
-              <div ng-switch="conf.diversityScore" class="percentage-colour-block">
-                <div ng-switch-when="A" class="percentage-cohort-a">{{conf.diversityPercentage | number:0}}%</div>
-                <div ng-switch-when="B" class="percentage-cohort-b">{{conf.diversityPercentage | number:0}}%</div>
-                <div ng-switch-when="C" class="percentage-cohort-c">{{conf.diversityPercentage | number:0}}%</div>
-                <div ng-switch-when="D" class="percentage-cohort-d">{{conf.diversityPercentage | number:0}}%</div>
-                <div ng-switch-when="E" class="percentage-cohort-e">{{conf.diversityPercentage | number:0}}%</div>
-                <div ng-switch-when="F" class="percentage-cohort-f">{{conf.diversityPercentage | number:0}}%</div>
+                <div class="percentage-colour-block">
+                <div class="{{conf.diversityPercentage | scoreClass}}">{{conf.diversityPercentage | number:0}}%</div></div>
             </div>
             </td>
             <td>{{conf.year | friendlyYear}}</td>            

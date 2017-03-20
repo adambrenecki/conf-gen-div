@@ -6,23 +6,6 @@ var controller = function($scope, $http, $filter) {
 		for (var i = 0; i < data.length; i += 1) {
 			data[i]['numberOfMen'] = data[i].totalSpeakers - data[i].numberOfWomen;
 			data[i]['diversityPercentage'] = data[i].numberOfWomen / data[i].totalSpeakers * 100
-			data[i]['diversityScore'] = (function() {
-				var percentage = data[i]['diversityPercentage'];
-				if (percentage < 10) {
-					return "F";
-				} else if (percentage < 20) {
-					return "E";
-				} else if (percentage < 30) {
-					return "D";
-				} else if (percentage < 40) {
-					return "C";
-				} else if (percentage < 50) {
-					return "B";
-				} else {
-					return "A";
-				}
-			})();	
-			// console.log(data[i]['diversityScore']);
 		}
 		$scope.loadedConferences = data;
 	});
@@ -41,6 +24,23 @@ var directive = function() {
 };
 
 angular.module('app', ['smart-table'])
+	.filter('scoreClass', function() {
+		return function (percentage) {
+			if (percentage < 10) {
+				return "percentage-cohort-f";
+			} else if (percentage < 20) {
+				return "percentage-cohort-e";
+			} else if (percentage < 30) {
+				return "percentage-cohort-d";
+			} else if (percentage < 40) {
+				return "percentage-cohort-c";
+			} else if (percentage < 50) {
+				return "percentage-cohort-b";
+			} else {
+				return "percentage-cohort-a";
+			}
+		}
+	})
 	.filter('friendlyYear', function() {
 		return function (year) {
 			var thisYear = new Date().getFullYear();
