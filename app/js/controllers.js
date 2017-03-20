@@ -1,23 +1,20 @@
 'use strict';
 
-
-var controller = function($scope, $http, $filter) {
-	$http.get('data/confs.json').success(function(data) {
-		for (var i = 0; i < data.length; i += 1) {
-			data[i]['numberOfMen'] = data[i].totalSpeakers - data[i].numberOfWomen;
-			data[i]['diversityPercentage'] = data[i].numberOfWomen / data[i].totalSpeakers * 100
-		}
-		$scope.loadedConferences = data;
-	});
-	
-	$scope.displayedConferences = [].concat($scope.loadedConferences);
-};
-
 var directive = function() {
 	return {
 		scope: true,
 		templateUrl: 'components/conflist/conflist.html',
-		controller: controller,
+		controller: function($scope, $http, $filter) {
+			$http.get('data/confs.json').success(function(data) {
+				for (var i = 0; i < data.length; i += 1) {
+					data[i]['numberOfMen'] = data[i].totalSpeakers - data[i].numberOfWomen;
+					data[i]['diversityPercentage'] = data[i].numberOfWomen / data[i].totalSpeakers * 100
+				}
+				$scope.loadedConferences = data;
+			});
+			
+			$scope.displayedConferences = [].concat($scope.loadedConferences);
+		},
 		controllerAs: 'ctrl'
 	};
 

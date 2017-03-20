@@ -1,5 +1,8 @@
 module.exports = function(config){
   var configuration = {
+    preprocessors: {
+      'components/conflist/conflist.html': ['ng-html2js']
+    },
 
     basePath : '../',
 
@@ -9,7 +12,7 @@ module.exports = function(config){
       'node_modules/angular-smart-table/dist/smart-table.min.js',
       'app/js/**/*.js',
       'test/unit/**/*.js',
-
+      '**/*.html',
       // fixtures
       {pattern: 'test/fixtures/**/*.json', watched: true, served: true, included: false}
     ],
@@ -20,7 +23,8 @@ module.exports = function(config){
 
     plugins : [
             'karma-chrome-launcher',
-            'karma-jasmine'
+            'karma-jasmine',
+            'karma-ng-html2js-preprocessor'
             ],
 
     junitReporter : {
@@ -36,9 +40,18 @@ module.exports = function(config){
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
+    },
+
+    ngHtml2JsPreprocessor: {
+      moduleName: 'my.templates',
+      // strip this from the file path
+      stripPrefix: 'base/app/',
+      // stripSuffix: '.ext',
+      // prepend this to the
+//       prependPrefix: 'served/',
+
+
     }
-
-
   };
 
   if(process.env.TRAVIS){
