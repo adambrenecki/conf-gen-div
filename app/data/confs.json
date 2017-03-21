@@ -1,6 +1,60 @@
 [
   {
-    "name":"Agile Australia ",
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2017",
+    "totalSpeakers":12,
+    "numberOfWomen":5,
+    "source":"http://codemania.io/agenda.html",
+    "Notes":""
+  },
+  {
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2016",
+    "totalSpeakers":10,
+    "numberOfWomen":6,
+    "source":"http://codemania.io/2016/",
+    "Notes":""
+  },
+  {
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2015",
+    "totalSpeakers":10,
+    "numberOfWomen":5,
+    "source":"http://codemania.io/2015/",
+    "Notes":""
+  },
+  {
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2014",
+    "totalSpeakers":10,
+    "numberOfWomen":2,
+    "source":"http://codemania.io/2014/",
+    "Notes":""
+  },
+  {
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2013",
+    "totalSpeakers":8,
+    "numberOfWomen":2,
+    "source":"http://codemania.io/2013/",
+    "Notes":""
+  },
+  {
+    "name":"Code Mania",
+    "location":"Auckland, New Zealand",
+    "year":"2012",
+    "totalSpeakers":9,
+    "numberOfWomen":1,
+    "source":"http://codemania.io/2012/",
+    "Notes":""
+  },
+  {
+    "name":"Agile Australia",
     "location":"Melbourne, Australia",
     "year":"2014",
     "totalSpeakers":63,
