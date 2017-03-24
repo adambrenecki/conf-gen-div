@@ -21,12 +21,14 @@
     "ng-mock-e2e": "^0.1.1",
     "protractor": "^5.1.1",
     "shelljs": "^0.7.7",
-    "tmp": "0.0.31"
+    "tmp": "0.0.31",
+    "webpack": "^2.3.1"
   },
   "optionalDependencies": {
     "fsevents": "*"
   },
   "scripts": {
+    "buiid": "node node_modules/.bin/babel src -d lib",
     "prestart": "npm install --no-optional",
     "start": "http-server -a 0.0.0.0 -p ${PORT-8000} -d false",
     "pretest": "npm install --no-optional",
