@@ -1,5 +1,32 @@
 [
   {
+    "name":"1st Conf",
+    "location":"Melbourne, Australia",
+    "year":"2017",
+    "totalSpeakers":21,
+    "numberOfWomen":12,
+    "source":"http://www.1stconf.com/speakers/",
+    "Notes":""
+  },
+  {
+    "name":"1st Conf",
+    "location":"Melbourne, Australia",
+    "year":"2016",
+    "totalSpeakers":29,
+    "numberOfWomen":6,
+    "source":"http://www.1stconf.com/2016/speakers",
+    "Notes":""
+  },
+  {
+    "name":"1st Conf",
+    "location":"Melbourne, Australia",
+    "year":"2015",
+    "totalSpeakers":27,
+    "numberOfWomen":7,
+    "source":"http://www.1stconf.com/2015/speakers",
+    "Notes":""
+  },
+  {
     "name":"Code Mania",
     "location":"Auckland, New Zealand",
     "year":"2017",
